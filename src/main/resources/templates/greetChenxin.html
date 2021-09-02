@@ -18,7 +18,9 @@
           <label for="greetField">Type a greeting name?</label>
           <input name="name" id="greetField">
           <button>Greetings!</button>
-          <p th:text="'Greetings, ' + ${name} + '!'"></p>
+          <p th:text="'Greetings, ' + ${name} + '! My name is Chenxin.'"></p>
+          <img src="/static/images/portrait1.jpg" th:src="@{/images/portrait1.jpg}" width="250" height="300" alt="Chenxin's photo">
+          <p th:text="'I like cats.'"></p>
         </div>
       </form>
     </div>
