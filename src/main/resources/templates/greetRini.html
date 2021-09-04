@@ -15,10 +15,12 @@
     <div class="row justify-content-left" style="margin: 2%;">
       <form action="/greetRini" method="GET" id="greetForm">
         <div>
-          <label for="greetField">Type a greeting name?</label>
+          <h1>ABOUT US</h1>
+          <p th:text="'Greetings! My name is Rini.'"></p>
+          <label for="greetField">What's your name?</label>
           <input name="name" id="greetField">
           <button>Greetings!</button>
-          <p th:text="'Greetings, ' + ${name} + '! My name is Rini.'"></p>
+          <p th:text="'Greetings, ' + ${name} + '!'"></p>
         </div>
       </form>
     </div>
