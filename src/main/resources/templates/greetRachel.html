@@ -20,7 +20,9 @@
           <label for="greetField">What's your name?</label>
           <input name="name" id="greetField">
           <button>Greetings!</button>
-          <p th:text="'Greetings, ' + ${name} + '!'"></p>
+          <p th:text="'Hello, ' + ${name} + '!'"></p>
+          <img src="/static/images/rachel.jpg" th:src="@{/images/rachel.jpg}" width="250" height="300" alt="Rachel's photo">
+          <p th:text="'I like cats.'"></p>
         </div>
       </form>
     </div>
