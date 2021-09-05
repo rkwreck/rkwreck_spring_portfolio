@@ -17,13 +17,13 @@
                     <h3>Random Number Generator</h3>
                     <label for="greetField">Generate a number between 1 and : </label>
                     <input name="name" id="greetField">
-                    <button id="button" onClick="randomize(10)">Generate!</button>
+                    <button id="button" onClick="randomize()">Generate!</button>
 
                     <script>
-                        function randomize(max) {
+                        function randomize() {
                             var number = document.getElementById("greetField").value;
                             //return (Math.floor(Math.random() * number)+1);
-                            var answer = (Math.floor(Math.random() * max + 1));
+                            var answer = (Math.floor(Math.random() * number + 1));
                             alert(answer);
 
                         }

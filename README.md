@@ -1,37 +1,23 @@
-## TBD [Spring Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Spring%20Portfolio%20Starter)
-Runtime link: TBD https://jportfolio.nighthawkcodingsociety.com/
+## Team Giraffe Project Code
+Team Repository with Scrum Board: https://github.com/rachelklee/giraffe
 
-## Visual thoughts
-#### * Starter code should be fun and practical
-#### * Organize with Bootstrap menu 
-#### * Add some color and fun through VANTA Visuals (birds, halo, solar, net)
-#### * Show some practical and fun links (hrefs) like Twitter, Git, Youtube
-#### * Show student project specific links (hrefs) per page
-#### * Show student TPT ideas
-#### * Show student About me pages
-
-
-
-## Getting started
-#### * Clone project to IntelliJ
-#### * Verify Project Structure to use a good Java JDK (adopt-openJ9-15) 
-#### * Play or entry point is Main.java, look for play option in tray.  This file eanbles Spring to load
-#### * Java source (src/main/java) had Java files.  Find "controllers" path, these files enable HTTP route and HTML file relationship.  Note, html 
-#### * HTML source (src/main/resources) had templates and supporting files.  Find index.html as this file is launched by defaul in Spring.  Other HTML files are loaded by building a "@Controller"
+## Table of Contents
+#### 1. 1 minute video explanation of Scrum Board
+#### 2. Wireframe presentation (Google Slides)
+#### 3. Ideation is in Readme
+#### 4. Configured Navbar with dropdowns on website
+#### 5. Integrated greet, birds, and Unit 1 functionality in Minilabs dropdown on website
+#### 6. Video explaining Wireframe and Genesis ideas
+#### 7. Individual journals including Unit 2 test corrections (also on website)
 
 
-
-## IDE management
-#### * A ".gitignore" can teach a Developer a lot about Java runtime.  A target directory is created when you press play button, byte code is generated and files are moved into this location.
-#### * A "pom.xml" file can teach you a lot about Java dependencies.  This is similar to "requirements.txt" file in Python.  It manages packages and dependencies.
-
-
-
-## Scores
-#### * Chenxin:
-#### * Rachel:
-#### * Rini:
-#### * Maggie:
+## Self-Grade Scores
+#### (self grade and explanations in individual journal are linked)
+#### Chenxin: Individual PBL - 1.5/2, Individual Unit - 5/5. Link: https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing
+#### Rachel: Individual PBL - 1.5/2, Individual Unit - 5/5. Link: https://docs.google.com/document/d/15mil-mSpv7Ma4rNcUr_b5NjWCx2yM9FR3MIMcpM767U/edit?usp=sharing
+#### Rini: Individual PBL - 1.5/2, Individual Unit - 5/5. Link: https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing
+#### Maggie: Individual PBL - 2/2, Individual Unit - 4.5/5. Link: https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk
+#### PBL Team Score: 3/3, Our team had an organized plan and everyone accomplished their assigned roles. We worked well together, stayed on task, and helped each other with difficulties. Overall, we finished all of the requirements for the website.
 
 ## Ideas/Planning
 #### * Purpose: Reporting stock market & local house pricing
