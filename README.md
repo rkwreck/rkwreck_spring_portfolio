@@ -1,7 +1,7 @@
 # Team Giraffe Repository
 
 ## Pop Quiz
-#### Chenxin: github id: #55467785; tasks: https://github.com/rkwreck/team_giraffe_website/issues/assigned/chenxin-chex; scrum board: https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Achenxin-chex; commits: https://github.com/rkwreck/team_giraffe_website/commits?author=chenxin-chex; profile: https://github.com/chenxin-chex
+#### Chenxin: #55467785, 
 #### Rachel:
 #### Maggie:
 #### Rini:
