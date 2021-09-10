@@ -4,7 +4,7 @@
 #### Chenxin: #55467785 (chenxin-chex),  
 #### Rachel:
 #### Maggie:
-#### Rini:#89210546 (rkwreck) ; Tasks: Use Thymeleaf to make a 3x3 grid, work on home page ; profile: https://github.com/rkwreck; Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck ; Tasks: 
+#### Rini:#89210546 (rkwreck) ; Tasks: Use Thymeleaf to make a 3x3 grid, work on home page ; profile: https://github.com/rkwreck; Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck ; Tasks: https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck 
 
 ## Important Links
 #### Chenxin's Individual Journal: https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing
