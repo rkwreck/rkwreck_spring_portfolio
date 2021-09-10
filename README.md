@@ -2,8 +2,8 @@
 
 ## Pop Quiz
 #### Chenxin: #55467785 (chenxin-chex),  
-#### Rachel:
-#### Maggie:
+#### Rachel: #77082379 (rachelklee), 
+#### Maggie: #72889935 (maggie3000)
 #### Rini:#89210546 (rkwreck) ; Tasks: Use Thymeleaf to make a 3x3 grid, work on home page ; profile: https://github.com/rkwreck; Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck ; Tasks: https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck 
 
 ## Important Links
