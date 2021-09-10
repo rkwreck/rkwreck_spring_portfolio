@@ -2,7 +2,7 @@
 
 ## Pop Quiz
 #### Chenxin: #55467785 (chenxin-chex),  
-#### Rachel: #77082379 (rachelklee), 
+#### Rachel: #77082379 (rachelklee), Profile: [] ; Scrum Board: [] ; Tasks: [] ; Commits: []
 #### Maggie: #72889935 (maggie3000); Profile: [https://github.com/maggie3000] ; Scrum Board:[https:github.com//rkwreck/team_giraffe_website/projects/1?] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3A+assignee%3Amaggie3000] ; Commits: [ ]
 #### Rini:#89210546 (rkwreck) ; Profile: [https://github.com/rkwreck]; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck] ; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck]
 
