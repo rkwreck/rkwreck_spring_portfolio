@@ -4,7 +4,7 @@
 #### Chenxin: #55467785 (chenxin-chex),  
 #### Rachel: #77082379 (rachelklee), 
 #### Maggie: #72889935 (maggie3000); Profile: [https://github.com/maggie3000] ; Scrum Board:[https:github.com//rkwreck/team_giraffe_website/projects/1?] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3A+assignee%3Amaggie3000] ; Commits: [ ]
-#### Rini:#89210546 (rkwreck) ; Profile: [https://github.com/rkwreck]; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck] ; Commits: []
+#### Rini:#89210546 (rkwreck) ; Profile: [https://github.com/rkwreck]; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck] ; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck]
 
 ## Important Links
 #### Chenxin's Individual Journal: https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing
