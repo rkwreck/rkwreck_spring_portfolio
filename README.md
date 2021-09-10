@@ -1,10 +1,10 @@
 # Team Giraffe Repository
 
 ## Pop Quiz
-#### Chenxin: #55467785, 
+#### Chenxin: #55467785 (chenxin-chex),  
 #### Rachel:
 #### Maggie:
-#### Rini:
+#### Rini:#89210546 (rkwreck), 
 
 ## Important Links
 #### Chenxin's Individual Journal: https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing
