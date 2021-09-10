@@ -1,5 +1,11 @@
 # Team Giraffe Repository
 
+## Pop Quiz
+#### Chenxin: #55467785, 
+#### Rachel:
+#### Maggie:
+#### Rini:
+
 ## Important Links
 #### Chenxin's Individual Journal: https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing
 #### Rachel's Individual Journal: https://docs.google.com/document/d/15mil-mSpv7Ma4rNcUr_b5NjWCx2yM9FR3MIMcpM767U/edit?usp=sharing
