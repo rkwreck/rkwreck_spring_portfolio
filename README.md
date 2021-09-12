@@ -1,6 +1,8 @@
 # Team Giraffe Repository
 
 ## Pop Quiz
+#### Team Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1
+#### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
 #### Chenxin: #55467785 (chenxin-chex); Profile: [https://github.com/chenxin-chex]; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Achenxin-chex]; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Achenxin-chex+is%3Aopen]; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=chenxin-chex]
 #### Rachel: #77082379 (rachelklee), Profile: [https://github.com/rachelklee] ; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arachelklee] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues/assigned/rachelklee] ; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=rachelklee]
 #### Maggie: #72889935 (maggie3000); Profile: [https://github.com/maggie3000] ; Scrum Board:[https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Amaggie3000] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Amaggie3000+is%3Aopen] ; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=maggie3000]
