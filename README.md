@@ -3,10 +3,12 @@
 ## Pop Quiz
 #### Team Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1
 #### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
-#### Chenxin: #55467785 (chenxin-chex); Profile: [https://github.com/chenxin-chex]; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Achenxin-chex]; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Achenxin-chex+is%3Aopen]; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=chenxin-chex]
-#### Rachel: #77082379 (rachelklee), Profile: [https://github.com/rachelklee] ; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arachelklee] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues/assigned/rachelklee] ; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=rachelklee]
-#### Maggie: #72889935 (maggie3000); Profile: [https://github.com/maggie3000] ; Scrum Board:[https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Amaggie3000] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Amaggie3000+is%3Aopen] ; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=maggie3000]
-#### Rini:#89210546 (rkwreck) ; Profile: [https://github.com/rkwreck]; Scrum Board: [https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck] ; Tasks: [https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck] ; Commits: [https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck]
+| Name | Profile | Scrum Board | Tasks | Commits |
+| ---- | ------- | ----------- | ----- | ------- |
+| Chenxin | #55467785 (chenxin-chex) | https://github.com/chenxin-chex | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Achenxin-chex | https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Achenxin-chex+is%3Aopen | https://github.com/rkwreck/team_giraffe_website/commits?author=chenxin-chex|
+| Rachel | #77082379 (rachelklee) | https://github.com/rachelklee | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arachelklee | https://github.com/rkwreck/team_giraffe_website/issues/assigned/rachelklee | https://github.com/rkwreck/team_giraffe_website/commits?author=rachelklee |
+| Maggie | #72889935 (maggie3000) | https://github.com/maggie3000 | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Amaggie3000 | https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Amaggie3000+is%3Aopen | https://github.com/rkwreck/team_giraffe_website/commits?author=maggie3000 |
+| Rini | #89210546 (rkwreck) | https://github.com/rkwreck | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck | https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck | https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck |
 
 ## Important Links
 #### Chenxin's Individual Journal: https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing
