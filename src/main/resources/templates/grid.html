@@ -6,11 +6,21 @@
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <title>Grid</title>
-</div></head>
+</div>
+<style>
+    table{
+        margin-right: 25px;
+        margin-top: 50px;
+    }
+    </style>
+</style>
+
+</head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
+    <div class="container">
     <table class="table table-bordered tabl=striped">
         <thead class="thead-dark">
         <th>Day</th>
@@ -30,6 +40,7 @@
         </tr>
         </tbody>
     </table>
+    </div>
     <!-- End of body content specific to page -->
 </div></body>
 
