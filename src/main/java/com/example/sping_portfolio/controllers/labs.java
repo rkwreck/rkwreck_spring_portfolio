@@ -11,6 +11,3 @@ public class labs {
         return "labs"; // returns HTML VIEW (greeting)
     }
 }
-
-
-//test
