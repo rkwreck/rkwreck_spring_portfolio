@@ -13,7 +13,8 @@ public class Grid {
     @GetMapping("/grid")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
-        model.addAttribute("name", name); // MODEL is passed to html
+        model.addAttribute("thlfintegration", "Day");
+        //USAGE EVIDENCE OF THYMELEAF is in the grid at first box "Day": "Day" is passed from Java class to the HTML page in grid.html
         return "grid"; // returns HTML VIEW (greeting)
     }
 }
