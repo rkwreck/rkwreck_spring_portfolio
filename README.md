@@ -1,6 +1,6 @@
 # Team Giraffe Repository
 
-## Pop Quiz
+## Scrum Team
 #### Team Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1
 #### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
 | Name | Profile | Scrum Board | Tasks | Commits |
@@ -18,7 +18,15 @@
 #### Chenxin and Rachel's Pair Share Journal: https://padlet.com/rachell60982/tvjnm9j852nxnipn
 #### Rini and Maggie's Pair Share Journal: https://padlet.com/rinik2014/m57cv3a2cidodfoz
 
-
+## Prototype Check, Unit 3
+#### Video explaination: https://loom.com/share/bc387287bf2440b984319c8290bf742c
+#### Table of Contents (of Review column)
+#### 1. Pair Designed HTML website
+#### 2. Pair Prototype 3 by 3 grid with Thymeleaf
+#### 3. Code subpages
+#### 4. Code all buttons in subpages
+#### 5. Uploade code for TPT 3
+#### 6. Everyone did Unit 3 Progress Check and corrections
 
 ## PBL 1-2, Unit 1
 ### Table of Contents (of Review column)
