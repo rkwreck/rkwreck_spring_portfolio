@@ -6,6 +6,13 @@
 <head><div layout:fragment="metadata" th:remove="tag">
   <!-- Start of head content specific to page -->
   <title>GreetRachel</title>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
   <!-- End of head content specific to page -->
 </div></head>
 
@@ -15,13 +22,13 @@
     <div class="row justify-content-left" style="margin: 2%;">
       <form action="/greetRachel" method="GET" id="greetForm">
         <div>
-          <h1>ABOUT US</h1>
+          <h1 style="text-align: center;">ABOUT US</h1>
           <p th:text="'Greetings! My name is Rachel.'"></p>
           <label for="greetField">What's your name?</label>
           <input name="name" id="greetField">
           <button>Greetings!</button>
           <p th:text="'Hello, ' + ${name} + '!'"></p>
-          <img src="/static/images/rachel.jpg" th:src="@{/images/rachel.jpg}" width="250" height="300" alt="Rachel's photo">
+          <img src="/static/images/rachel.jpg" th:src="@{/images/rachel.jpg}" width="225" height="300" alt="Rachel's photo">
           <p th:text="'I play field hockey and lacrosse.'"></p>
         </div>
       </form>
