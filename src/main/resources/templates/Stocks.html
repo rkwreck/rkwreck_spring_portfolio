@@ -19,6 +19,7 @@
             cursor: pointer;
             text-align: center;
             margin: 10px;
+        }
         .block:hover {
             background-color: #ddd;
             color: black;
@@ -27,13 +28,13 @@
             text-align: center;
             margin: 20px;
         }
-        }
     </style>
 
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body><div layout:fragment="content" th:remove="tag">
+<body>
+    '<div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
     <div id="spring_intro" class="articles" style="margin: 30px;">
         <h1><strong>Stocks (USA Markets)</strong></h1>
@@ -53,7 +54,7 @@
             <li>stats</li>
         </ol>
     </div>
-
+    </div>
     <!-- start of grid code --->
     <div class="container">
         <table class="table table-bordered tabl=striped">
@@ -98,7 +99,8 @@
         </table>
         <p th:text="'Last updated September 14, 2021 at 9:37 AM'"></p>
     <!-- End of body content specific to page -->
-</div></body>
+    </div>
+</body>
 
 </html>
 
