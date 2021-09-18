@@ -19,7 +19,8 @@
 #### Rini and Maggie's Pair Share Journal: https://padlet.com/rinik2014/m57cv3a2cidodfoz
 
 ## Prototype Sprint End, Unit 4
-#### Video Explaination: 
+#### Video Explaination: https://www.loom.com/share/553c917077ac4f20ab1cecca4af85731
+#### Link to Hackathon Code: https://github.com/rachelklee/nighthawk_csa
 ### Individual Commits (Sept 13 - 17)
 #### Rachel (worked on hackathon): https://github.com/rachelklee/nighthawk_csa/commits?author=rachelklee
 #### Rini (worked on theme page on website): https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck
