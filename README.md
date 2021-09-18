@@ -18,6 +18,22 @@
 #### Chenxin and Rachel's Pair Share Journal: https://padlet.com/rachell60982/tvjnm9j852nxnipn
 #### Rini and Maggie's Pair Share Journal: https://padlet.com/rinik2014/m57cv3a2cidodfoz
 
+## Prototype Sprint End, Unit 4
+#### Video Explaination: 
+### Individual Commits (Sept 13 - 17)
+#### Rachel (worked on hackathon): https://github.com/rachelklee/nighthawk_csa/commits?author=rachelklee
+#### Rini (worked on theme page on website): https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck
+#### Maggie (worked on transitions on website): https://github.com/rkwreck/team_giraffe_website/commits?author=maggie3000
+#### Chenxin (worked on hackathon): https://github.com/rachelklee/nighthawk_csa/commits?author=chenxin-chex
+### Table of Contents (of Review Column)
+#### 1. Scrum Master groomed Scrum Board
+#### 2. TT3 Hackathon Code
+#### 3. Hackathon: Debug changing variable
+#### 4-6. Hackathon assignments
+#### 7. Code transitions between websites
+#### 8. Code website theme page (Stocks)
+#### 9. Create video showing runtime/prototype
+
 ## Prototype Check, Unit 3
 #### Video explaination: https://loom.com/share/bc387287bf2440b984319c8290bf742c
 #### Table of Contents (of Review column)
