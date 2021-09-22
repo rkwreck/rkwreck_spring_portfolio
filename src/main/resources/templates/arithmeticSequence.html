@@ -20,18 +20,32 @@
     <!-- Start of body content specific to page -->
     <div class="contact" style="height: 35vh;">
         <div class="row justify-content-left" style="margin: 2%;">
-            <form action="/Arithmetic Sequence" method="GET" id="greetForm">
+            <form action="/arithmeticSequence" method="GET" id="greetForm">
                 <div>
                     <h1 style="text-align: center;">ARITHMETIC SEQUENCE</h1>
-                    <script>
-                        function counter() {
-                            var ynum = document.getElementById(yintField);
-                            var slope = document.getElementById(slopeField);
-                            var inum = document.getElementById(iteration);
 
-                            var snum = Integer.parseInt(slope);
-                            var num1 = int(ynum);
-                            var count = 0;
+                    <label for="yintField">What is the initial value?</label>
+                    <input type="text" name="initVal" id="yintField">
+                    <label for="slopeField">What is the common difference?</label>
+                    <input type="text" name="cdVal" id="slopeField">
+                    <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
+                    <input type="text" name="iteration" id="iteration">
+                    <button>Enter</button>
+                    <p th:text="'The initial value is ' + ${initVal} + '!'"></p>
+                    <p th:text="'The common difference is ' + ${cdVal} + '!'"></p>
+                    <p th:text="'The number of iterations is ' + ${iteration} + '!'"></p>
+
+                    <script>
+                            let ynum = document.getElementById(yintField);
+                            let slope = document.getElementById(slopeField);
+                            let inum = document.getElementById(iteration);
+
+                            document.write("The initial value is " + inum)
+                            document.write("The common difference is ")
+
+                            let snum = parseInt(slope);
+                            let num1 = parseInt(ynum);
+                            let count = 0;
 
                             while (count < inum) {
 
@@ -41,24 +55,10 @@
                                 num1 = int(num2);
                                 count = count + 1;
                             }
-                        }
+
 
 
                     </script>
-
-                    <form onsubmit="return counter();">
-                        <label for="yintField">What is the initial value?</label>
-                        <input type="text" name="initVal" id="yintField">
-                        <label for="slopeField">What is the common difference?</label>
-                        <input type="text" name="cdVal" id="slopeField">
-                        <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
-                        <input type="text" name="iteration" id="iteration">
-                        <input type="submit" value="Submit">
-                    </form>
-
-                    <p th:text="'The initial value is ' + ${initVal} + '!'"></p>
-                    <p th:text="'The common difference is ' + ${cdVal} + '!'"></p>
-                    <p th:text="'The number of iterations is ' + ${iteration} + '!'"></p>
 
                 </div>
             </form>
