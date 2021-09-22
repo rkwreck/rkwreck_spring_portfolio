@@ -5,18 +5,20 @@
 #### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
 | Name | Profile | Scrum Board | Tasks | Commits |
 | ---- | ------- | ----------- | ----- | ------- |
-| Chenxin | [chenxin-chex](https://github.com/chenxin-chex) | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Achenxin-chex | https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Achenxin-chex+is%3Aopen | https://github.com/rkwreck/team_giraffe_website/commits?author=chenxin-chex|
-| Rachel | #77082379 (rachelklee) | https://github.com/rachelklee | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arachelklee | https://github.com/rkwreck/team_giraffe_website/issues/assigned/rachelklee | https://github.com/rkwreck/team_giraffe_website/commits?author=rachelklee |
-| Maggie | #72889935 (maggie3000) | https://github.com/maggie3000 | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Amaggie3000 | https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Amaggie3000+is%3Aopen | https://github.com/rkwreck/team_giraffe_website/commits?author=maggie3000 |
-| Rini | #89210546 (rkwreck) | https://github.com/rkwreck | https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck | https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck | https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck |
+| Chenxin | [chenxin-chex](https://github.com/chenxin-chex) | [Scrum Board issues](https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Achenxin-chex) | [Open Issues](https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Achenxin-chex+is%3Aopen) | [Commits](https://github.com/rkwreck/team_giraffe_website/commits?author=chenxin-chex) |
+| Rachel | [rachelklee](https://github.com/rachelklee) | [Scrum Board issues](https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arachelklee) | [Open Issues](https://github.com/rkwreck/team_giraffe_website/issues/assigned/rachelklee) | [Commits](https://github.com/rkwreck/team_giraffe_website/commits?author=rachelklee) |
+| Maggie | [maggie3000](https://github.com/maggie3000) | [Scrum Board issues](https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Amaggie3000) | [Open issues](https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Amaggie3000+is%3Aopen) | [Commits](https://github.com/rkwreck/team_giraffe_website/commits?author=maggie3000) |
+| Rini | [rkwreck](https://github.com/rkwreck) | [Scrum Board issues](https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arkwreck) | [Open issues](https://github.com/rkwreck/team_giraffe_website/issues/assigned/rkwreck) | [Commits](https://github.com/rkwreck/team_giraffe_website/commits?author=rkwreck) |
 
-## Important Links
-#### Chenxin's Individual Journal: https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing
-#### Rachel's Individual Journal: https://docs.google.com/document/d/15mil-mSpv7Ma4rNcUr_b5NjWCx2yM9FR3MIMcpM767U/edit?usp=sharing
-#### Rini's Individual Journal: https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing
-#### Maggie's Individual Journal: https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk
-#### Chenxin and Rachel's Pair Share Journal: https://padlet.com/rachell60982/tvjnm9j852nxnipn
-#### Rini and Maggie's Pair Share Journal: https://padlet.com/rinik2014/m57cv3a2cidodfoz
+## Individual Checks for each week
+#### Unit notes and test corrections for each week in Individual Journals
+| Name | Individual Journal | Pair Share Journal | Grade |
+| ---- | ------------------ | ------------------ | ----- |
+| Chenxin | [Individual](https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | -/5 |
+| Rachel | [Individual](https://docs.google.com/document/d/15mil-mSpv7Ma4rNcUr_b5NjWCx2yM9FR3MIMcpM767U/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | -/5 |
+| Rini | [Individual](https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | -/5 |
+| Maggie | [Individual](https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | -/5 |
+
 
 ## Modeling Checkpoint, Unit 5
 #### Video Explaination:
@@ -25,10 +27,10 @@
 | Name | Requirement | Evidence | Grade |
 | ---- | ----------- | -------- | ----- |
 | Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | -/3 |
-| Rachel | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | -/3 |
+| Rachel | Modeling Improvements/ TPT 5 Minilab | [Issue1](https://github.com/rkwreck/team_giraffe_website/issues/34)/ [Issue2](https://github.com/rkwreck/team_giraffe_website/issues/38) | -/3 |
 | Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | -/3 |
 | Maggie | Control Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/36) |-/3 |
-#### Table of COntents (of Review Column)
+#### Table of Contents (of Review Column)
 
 ## Prototype Sprint End, Unit 4
 #### Video Explaination: https://www.loom.com/share/553c917077ac4f20ab1cecca4af85731
