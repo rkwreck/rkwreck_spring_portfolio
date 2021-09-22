@@ -30,31 +30,35 @@
                     <input type="text" name="cdVal" id="slopeField">
                     <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
                     <input type="text" name="iteration" id="iteration">
-                    <button>Enter</button>
+                    <button id="button" onClick="arithmetic()">Enter</button>
                     <p th:text="'The initial value is ' + ${initVal} + '!'"></p>
                     <p th:text="'The common difference is ' + ${cdVal} + '!'"></p>
                     <p th:text="'The number of iterations is ' + ${iteration} + '!'"></p>
 
                     <script>
-                            let ynum = document.getElementById(yintField);
-                            let slope = document.getElementById(slopeField);
-                            let inum = document.getElementById(iteration);
+                        function arithmetic() {
+                            let ynum = document.getElementById("yintField").value;
+                            let slope = document.getElementById("slopeField").value;
+                            let inum = document.getElementById("iteration").value;
 
-                            document.write("The initial value is " + inum)
-                            document.write("The common difference is ")
+                            document.write("The initial value is " + ynum + ". ");
+                             // document.write("The common difference is ")
 
                             let snum = parseInt(slope);
                             let num1 = parseInt(ynum);
+                            let dunno = parseInt(inum);
                             let count = 0;
 
-                            while (count < inum) {
+                            while (count < dunno) {
 
                                 document.write(num1 + " ");
 
-                                var num2 = num1 + snum;
-                                num1 = int(num2);
+                                let num2 = num1 + snum;
+                                num1 = num2;
                                 count = count + 1;
                             }
+
+                        }
 
 
 
