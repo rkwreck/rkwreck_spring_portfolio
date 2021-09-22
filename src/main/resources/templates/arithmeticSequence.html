@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Arithmetic Sequence</title>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/Arithmetic Sequence" method="GET" id="greetForm">
+                <div>
+                    <h1 style="text-align: center;">ARITHMETIC SEQUENCE</h1>
+                    <script>
+                        function counter() {
+                            var ynum = document.getElementById(yintField);
+                            var slope = document.getElementById(slopeField);
+                            var inum = document.getElementById(iteration);
+
+                            var snum = Integer.parseInt(slope);
+                            var num1 = int(ynum);
+                            var count = 0;
+
+                            while (count < inum) {
+
+                                document.write(num1 + " ");
+
+                                var num2 = num1 + snum;
+                                num1 = int(num2);
+                                count = count + 1;
+                            }
+                        }
+
+
+                    </script>
+
+                    <form onsubmit="return counter();">
+                        <label for="yintField">What is the initial value?</label>
+                        <input type="text" name="initVal" id="yintField">
+                        <label for="slopeField">What is the common difference?</label>
+                        <input type="text" name="cdVal" id="slopeField">
+                        <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
+                        <input type="text" name="iteration" id="iteration">
+                        <input type="submit" value="Submit">
+                    </form>
+
+                    <p th:text="'The initial value is ' + ${initVal} + '!'"></p>
+                    <p th:text="'The common difference is ' + ${cdVal} + '!'"></p>
+                    <p th:text="'The number of iterations is ' + ${iteration} + '!'"></p>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>
+
+
+<!--test-->
