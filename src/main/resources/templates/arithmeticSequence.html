@@ -31,9 +31,7 @@
                     <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
                     <input type="text" name="iteration" id="iteration">
                     <button id="button" onClick="arithmetic()">Enter</button>
-                    <p th:text="'The initial value is ' + ${initVal} + '!'"></p>
-                    <p th:text="'The common difference is ' + ${cdVal} + '!'"></p>
-                    <p th:text="'The number of iterations is ' + ${iteration} + '!'"></p>
+
 
                     <script>
                         function arithmetic() {
@@ -41,15 +39,19 @@
                             let slope = document.getElementById("slopeField").value;
                             let inum = document.getElementById("iteration").value;
 
-                            document.write("The initial value is " + ynum + ". ");
-                             // document.write("The common difference is ")
+
+                            document.write('<pre>')
+                            document.writeln("The initial value is " + ynum + ". ");
+                            document.writeln("The common difference is " + slope + ". ");
+                            document.writeln("The number of iterations is " + inum + ". ");
+
 
                             let snum = parseInt(slope);
                             let num1 = parseInt(ynum);
-                            let dunno = parseInt(inum);
+                            let iteration = parseInt(inum);
                             let count = 0;
 
-                            while (count < dunno) {
+                            while (count < iteration) {
 
                                 document.write(num1 + " ");
 
