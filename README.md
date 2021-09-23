@@ -14,23 +14,26 @@
 #### Unit notes and test corrections for each week in Individual Journals
 | Name | Individual Journal | Pair Share Journal | Grade |
 | ---- | ------------------ | ------------------ | ----- |
-| Chenxin | [Individual](https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | -/5 |
-| Rachel | [Individual](https://docs.google.com/document/d/15mil-mSpv7Ma4rNcUr_b5NjWCx2yM9FR3MIMcpM767U/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | -/5 |
-| Rini | [Individual](https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | -/5 |
-| Maggie | [Individual](https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | -/5 |
+| Chenxin | [Individual](https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | [ ] |
+| Rachel | [Individual](https://docs.google.com/document/d/15mil-mSpv7Ma4rNcUr_b5NjWCx2yM9FR3MIMcpM767U/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | [ ] |
+| Rini | [Individual](https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | [ ] |
+| Maggie | [Individual](https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | [ ] |
 
 
-## Modeling Checkpoint, Unit 5
+## Modeling Checkpoint, Unit 7
 #### Video Explaination:
 #### Link to model code: https://github.com/rachelklee/nighthawk_csa
 #### **Modeling**
 | Name | Requirement | Evidence | Grade |
 | ---- | ----------- | -------- | ----- |
-| Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | -/3 |
-| Rachel | Modeling Improvements/ TPT 5 Minilab | [Issue1](https://github.com/rkwreck/team_giraffe_website/issues/34)/ [Issue2](https://github.com/rkwreck/team_giraffe_website/issues/38) | -/3 |
-| Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | -/3 |
-| Maggie | Control Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/36) |-/3 |
+| Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | [ ] |
+| Rachel | Modeling Improvements / TPT 5 Minilab | [Issue1](https://github.com/rkwreck/team_giraffe_website/issues/34) / [Issue2](https://github.com/rkwreck/team_giraffe_website/issues/38) | [ ] |
+| Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | [ ] |
+| Maggie | Control Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/36) | [ ] |
 #### Table of Contents (of Review Column)
+
+## Journal Review, Unit 5
+#### Reference above: "Individual Checks for each week" to see updated individual journals and pair share journals for Week 5
 
 ## Prototype Sprint End, Unit 4
 #### Video Explaination: https://www.loom.com/share/553c917077ac4f20ab1cecca4af85731
