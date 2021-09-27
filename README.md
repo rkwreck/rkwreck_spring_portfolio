@@ -30,10 +30,12 @@
 | Rachel | Modeling Improvements / TPT 5 Minilab | [Issue1](https://github.com/rkwreck/team_giraffe_website/issues/34) / [Issue2](https://github.com/rkwreck/team_giraffe_website/issues/38) | <ul><li>[ ] done?</li></ul> |
 | Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | <ul><li>[ ] done?</li></ul> |
 | Maggie | Control Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/36) | <ul><li>[ ] done?</li></ul> |
-#### Table of Contents (of Review Column)
+
 
 ## Journal Review, Unit 5
-#### Reference above: "Individual Checks for each week" to see updated individual journals and pair share journals for Week 5
+#### Reference above: "Individual Checks for each week" to see updated individual journals for Week 5 (includes CB video notes, test corrections, and TPT notes for each person).
+#### Ticket to live review of Scrum Board and Readme [in Review Column](https://github.com/rkwreck/team_giraffe_website/issues/39)
+
 
 ## Prototype Sprint End, Unit 4
 #### Video Explaination: https://www.loom.com/share/553c917077ac4f20ab1cecca4af85731
