@@ -31,8 +31,10 @@
                     <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
                     <input type="text" name="iteration" id="iteration">
                     <button id="button" onClick="arithmetic()">Enter</button>
-
-
+                    <form id="asForm" action="/as" method="GET">
+                        <input name="aseq" id="aseq" type="number" min="0" max="100">
+                        <button>Enter</button>
+                    </form>
                     <script>
                         function arithmetic() {
                             let ynum = document.getElementById("yintField").value;
@@ -61,10 +63,45 @@
                             }
 
                         }
-
-
-
                     </script>
+
+                <div class="col-md-6">
+                    <h3>Comparisons</h3>
+                    <table class="mx-auto">
+                        <tbody>
+                        <tr>
+                            <th scope="col">Method</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Number</th>
+                            <th scope="col">List</th>
+                        </tr>
+                        <tr>
+                            <td>For</td>
+                            <td>35000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        <tr>
+                            <td>While</td>
+                            <td>18000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        <tr>
+                            <td>Stream</td>
+                            <td>91000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        <tr>
+                            <td>Stream</td>
+                            <td>91000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
                 </div>
             </form>
