@@ -31,25 +31,29 @@
                     <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
                     <input type="text" name="iteration" id="iteration">
                     <button id="button" onClick="arithmetic()">Enter</button>
-                    <p th:text="'The initial value is ' + ${initVal} + '!'"></p>
-                    <p th:text="'The common difference is ' + ${cdVal} + '!'"></p>
-                    <p th:text="'The number of iterations is ' + ${iteration} + '!'"></p>
-
+                    <form id="asForm" action="/as" method="GET">
+                        <input name="aseq" id="aseq" type="number" min="0" max="100">
+                        <button>Enter</button>
+                    </form>
                     <script>
                         function arithmetic() {
                             let ynum = document.getElementById("yintField").value;
                             let slope = document.getElementById("slopeField").value;
                             let inum = document.getElementById("iteration").value;
 
-                            document.write("The initial value is " + ynum + ". ");
-                             // document.write("The common difference is ")
+
+                            document.write('<pre>')
+                            document.writeln("The initial value is " + ynum + ". ");
+                            document.writeln("The common difference is " + slope + ". ");
+                            document.writeln("The number of iterations is " + inum + ". ");
+
 
                             let snum = parseInt(slope);
                             let num1 = parseInt(ynum);
-                            let dunno = parseInt(inum);
+                            let iteration = parseInt(inum);
                             let count = 0;
 
-                            while (count < dunno) {
+                            while (count < iteration) {
 
                                 document.write(num1 + " ");
 
@@ -59,10 +63,45 @@
                             }
 
                         }
-
-
-
                     </script>
+
+                <div class="col-md-6">
+                    <h3>Comparisons</h3>
+                    <table class="mx-auto">
+                        <tbody>
+                        <tr>
+                            <th scope="col">Method</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Number</th>
+                            <th scope="col">List</th>
+                        </tr>
+                        <tr>
+                            <td>For</td>
+                            <td>35000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        <tr>
+                            <td>While</td>
+                            <td>18000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        <tr>
+                            <td>Stream</td>
+                            <td>91000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        <tr>
+                            <td>Stream</td>
+                            <td>91000</td>
+                            <td>1</td>
+                            <td>[0,1]</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
                 </div>
             </form>
