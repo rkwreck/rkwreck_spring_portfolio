@@ -24,7 +24,7 @@ public class ArithmeticController {
     }
 
     // GET request,, parameters are passed within the URI
-    @GetMapping("/arithmeticSequence")
+    @GetMapping("/arithmeticLabSequence")
     public String fib(@RequestParam(name="arithseq", required=false,  defaultValue="1") String arithseq, Model model) {
         //nth is fibonacci request
         int nth = Integer.parseInt(arithseq);
@@ -32,7 +32,7 @@ public class ArithmeticController {
         //MODEL attributes are passed back html
         model.addAttribute("arithList", arithInit(nth));
 
-        return "/arithmeticSequence"; //HTML render fibonacci results
+        return "/arithmeticLabSequence"; //HTML render fibonacci results
 
     }
 
