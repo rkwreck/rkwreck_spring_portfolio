@@ -1,5 +1,6 @@
-package com.example.sping_portfolio.controllers;
+package com.example.sping_portfolio.controllers.factorialModel;
 
+import com.example.sping_portfolio.controllers.consoleUI.ConsoleMethods;
 import lombok.Getter;
 
 import java.time.Duration;
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 @Getter
-public abstract class _Arithmetic {
+public abstract class _Factorial {
     int size;
     String name;
     int hashID;
@@ -16,15 +17,19 @@ public abstract class _Arithmetic {
     ArrayList<Long> list;
     HashMap<Integer, Object> hash;
 
-    public _Arithmetic(int nth) {
+    /*
+     Construct the nth com.tri3.nighthawk.fibonacci number
+     @param: nth constrained to 92 because of maximum long
+     */
+    public _Factorial(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
         this.hash = new HashMap<>();
-        // initialize arithmetic and time algorithm
-        Instant start = Instant.now();
+        //initialize fibonacci and time algorithm
+        Instant start = Instant.now();  // time capture -- start
         this.init();
-        Instant end = Instant.now();
+        Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
     }
 
@@ -65,5 +70,4 @@ public abstract class _Arithmetic {
             ConsoleMethods.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }
     }
-
 }
