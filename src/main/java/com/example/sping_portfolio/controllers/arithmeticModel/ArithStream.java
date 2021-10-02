@@ -10,13 +10,14 @@ public class ArithStream extends _Arithmetic {
     @Override
     protected void init() {
         super.name = "Stream";
-        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[0] + f[1]})
+        int count = 5;
+        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[1] + count})
                 .limit(super.size)
                 .forEach(f -> super.setData(f[0]) );
     }
 
     public static void main(String[] args) {
-        int num = 20;   //number of terms, 92 is max for long
+        int num = 20;
         _Arithmetic arithmetic = new ArithStream(num);
         arithmetic.print();
     }
