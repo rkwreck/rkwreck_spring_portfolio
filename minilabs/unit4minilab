@@ -1,0 +1,36 @@
+/*scenario: give information about whether you can ride a rollercoaster at Disneyland
+
+What will be the output when height is 60 and "isAdult" is true?
+a. It's hot today! IT's 60 degrees and no breeze :(.
+b. The weather is 60 degrees. It's hot!
+c. The weather is kinda chilly today. It's 60 degrees.
+d. Nothing will be printed because there is an error.
+e. The weather is snowy and cold today. The weather is 60 degrees.
+*/
+
+//create a main class
+public class code {
+
+    //create an information method
+    public void information (int height, boolean isAdult) {    //take two parameters
+        if (height > 48) {        //set up conditionals
+            System.out.println("The weather is " + height + " degrees. It's hot!");
+        }
+
+        else if (height == 70 && isAdult == true) {
+            System.out.println("The weather is perfect today! It's 70 degrees and breezy.");
+        }
+        else if (!(height == 70 || isAdult == false)) {       //use de morgan's laws
+            System.out.println("It's hot today! It's " + height + " degrees and no breeze :(.");
+        }
+        else if (height > 33) {
+            System.out.println("The weather is kinda chilly today. It's " + height + " degrees.");
+        }
+        else if (height <= 33)
+        {
+            System.out.print("The weather is snowy and cold today. ");
+            System.out.println("The weather is " + height + " degrees.");
+        }
+
+    }
+}
