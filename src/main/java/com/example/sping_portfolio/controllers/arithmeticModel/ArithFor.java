@@ -16,7 +16,7 @@ public class ArithFor extends _Arithmetic {
         }
 
     public static void main(String[] args) {
-        int num = 20;   //number of Fibs, 92 is max for long
+        int num = 20;
         _Arithmetic arithmetic = new ArithFor(num);
         arithmetic.print();
     }

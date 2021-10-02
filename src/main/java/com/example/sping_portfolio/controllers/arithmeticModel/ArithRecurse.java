@@ -12,17 +12,18 @@ public class ArithRecurse extends _Arithmetic {
         super.name = "Recursion";
         long limit = super.size;
         long[] f = new long[]{0, 1};
-        initRecurse(limit,f);
+        initRecurse(limit,f, 2);
     }
 
-    private void initRecurse(long limit, long[] f) {
-        if (limit == 0) return;                                 //exit condition
+    private void initRecurse(long limit, long[] f, int count) {
+        if (limit == 0) return;
         super.setData(f[0]);
-        initRecurse(--limit, new long[]{f[1], f[0] + f[1]});    //recursion requires pre-increment
+        count ++;
+        initRecurse(--limit, new long[]{f[1], f[1] + count}, count);
     }
 
     public static void main(String[] args) {
-        int num = 20;   //number of Fibs, 92 is max for long
+        int num = 20;
         _Arithmetic arithmetic = new ArithRecurse(num);
         arithmetic.print();
     }
