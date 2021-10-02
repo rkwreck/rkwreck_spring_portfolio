@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Geometric Sequence</title>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/geometricSequence" method="GET" id="greetForm">
+                <div>
+                    <h1 style="text-align: center;">GEOMETRIC SEQUENCE</h1>
+
+                    <div class="jumbotron text-center row" style="background-color: #df9c36">
+                        <!-- Input -->
+                        <div class="col-md-6">
+                            <h3>Type the nth number in the geometric sequence?</h3>
+                            <form id="geomForm" action="/geo" method="GET" >
+                                <input name="geomSeq" id="geomSeq" type="number" min="2" max="20" >
+                                <input name="geomRatio" id="geomRatio" type="number" min="2" max="20" >
+                                <button>Go!</button>
+                            </form>
+                        </div>
+                        <!-- Output/Result -->
+                        <div class="col-md-6">
+                            <h3>Algorithm comparison</h3>
+                            <table class="mx-auto">
+                                <tr>
+                                    <th scope="col">Method</th>
+                                    <th scope="col">Number</th>
+                                    <th scope="col">List</th>
+                                </tr>
+                                <tr th:each="geom: ${geomList}">
+                                    <td th:text="${geom.getName()}"></td>
+                                    <td th:text="${geom.getNth()}"></td>
+                                    <td th:text="${geom.getList()}"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <style>
+        table, td, th {
+            border: 1px solid var(--dblue);
+        }
+        td, th {
+            text-align:left;
+        }
+    </style>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>
