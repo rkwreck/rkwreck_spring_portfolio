@@ -1,6 +1,6 @@
-package com.example.sping_portfolio.controllers;
+package com.example.sping_portfolio.controllers.lucasModel;
 
-import lombok.Getter;
+import com.example.sping_portfolio.consoleUI.ConsoleMethods;
 
 
 import java.time.Duration;
@@ -8,8 +8,10 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import lombok.Getter;
+
 @Getter
-public abstract class _Arithmetic {
+public abstract class _Lucas {
     int size;
     String name;
     int hashID;
@@ -17,15 +19,23 @@ public abstract class _Arithmetic {
     ArrayList<Long> list;
     HashMap<Integer, Object> hash;
 
-    public _Arithmetic(int nth) {
+    /*
+     Construct the nth com.tri3.nighthawk.lucas number
+     @param: nth constrained to 92 because of maximum long
+     */
+    public _Lucas() {
+        this( 20);
+    }
+
+    public _Lucas(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
         this.hash = new HashMap<>();
-        // initialize arithmetic and time algorithm
-        Instant start = Instant.now();
+        //initialize lucas and time algorithm
+        Instant start = Instant.now();  // time capture -- start
         this.init();
-        Instant end = Instant.now();
+        Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
     }
 
@@ -57,14 +67,13 @@ public abstract class _Arithmetic {
     }
 
     public void print() {
-        System.out.println("Init method = " + this.name);
-        System.out.println("Init time = " + this.getTimeElapsed());
-        System.out.println("Arithmetic Sequence Number " + this.size + " = " + this.getNth());
-        System.out.println("Arithmetic List = " + this.getList());
-        System.out.println("Arithmetic Hashmap = " + this.getHash());
+        ConsoleMethods.println("Init method = " + this.name);
+        ConsoleMethods.println("Init time = " + this.getTimeElapsed());
+        ConsoleMethods.println("Lucas Number " + this.size + " = " + this.getNth());
+        ConsoleMethods.println("Lucas List = " + this.getList());
+        ConsoleMethods.println("Lucas Hashmap = " + this.getHash());
         for (int i=0 ; i<this.size; i++ ) {
-            System.out.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
+            ConsoleMethods.println("Lucas Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }
     }
-
 }

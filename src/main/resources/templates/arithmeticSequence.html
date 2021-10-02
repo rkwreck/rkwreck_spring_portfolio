@@ -25,11 +25,11 @@
                     <h1 style="text-align: center;">ARITHMETIC SEQUENCE</h1>
 
                     <label for="yintField">What is the initial value?</label>
-                    <input type="text" name="initVal" id="yintField">
+                    <input type="text" name="initVal" id="yintField" value="0">
                     <label for="slopeField">What is the common difference?</label>
-                    <input type="text" name="cdVal" id="slopeField">
+                    <input type="text" name="cdVal" id="slopeField" value="2">
                     <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
-                    <input type="text" name="iteration" id="iteration">
+                    <input type="text" name="iteration" id="iteration" value="3">
                     <button id="button" onClick="arithmetic()">Enter</button>
                     <form id="asForm" action="/as" method="GET">
                         <input name="aseq" id="aseq" type="number" min="0" max="100">
@@ -61,7 +61,6 @@
                                 num1 = num2;
                                 count = count + 1;
                             }
-
                         }
                     </script>
 
