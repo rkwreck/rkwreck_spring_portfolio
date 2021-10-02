@@ -1,7 +1,5 @@
 package com.example.sping_portfolio.controllers.geometricModel;
 
-import java.util.stream.Stream;
-
 public class GeoFor extends com.example.sping_portfolio.controllers.geometricModel._Geometric {
     public GeoFor() {
         super();
@@ -19,7 +17,7 @@ public class GeoFor extends com.example.sping_portfolio.controllers.geometricMod
     }
 
     /*
-    Class method "main" with purpose of testing GeoStream
+    Class method "main" with purpose of testing GeoFor
      */
     public static void main(String[] args) {
         com.example.sping_portfolio.controllers.geometricModel._Geometric geometric = new GeoFor();
