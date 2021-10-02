@@ -18,7 +18,6 @@ public abstract class _Factorial {
     HashMap<Integer, Object> hash;
 
     /*
-     Construct the nth com.tri3.nighthawk.fibonacci number
      @param: nth constrained to 92 because of maximum long
      */
     public _Factorial(int nth) {

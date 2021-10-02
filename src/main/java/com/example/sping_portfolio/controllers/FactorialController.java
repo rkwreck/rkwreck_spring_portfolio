@@ -13,7 +13,7 @@ import java.util.List;
 public class FactorialController {
 
     public List<_Factorial> factInit(int nth) {
-        //Fibonacci objects created with different initializers
+        //Factorial objects with different initializers based on method
         List<_Factorial> factList = new ArrayList<>();
         factList.add(new FactFor(nth));
         factList.add(new FactWhile(nth));
@@ -25,14 +25,14 @@ public class FactorialController {
 
     // GET request,, parameters are passed within the URI
     @GetMapping("/factorialSequence")
-    public String fib(@RequestParam(name="factseq", required=false,  defaultValue="1") String factseq, Model model) {
-        //nth is fibonacci request
+    public String fib(@RequestParam(name="factseq", required=false,  defaultValue="2") String factseq, Model model) {
+        //nth is how far the sequence goes
         int nth = Integer.parseInt(factseq);
 
         //MODEL attributes are passed back html
         model.addAttribute("factList", factInit(nth));
 
-        return "/factorialSequence"; //HTML render fibonacci results
+        return "/factorialSequence"; //HTML render factorial results
 
     }
 
@@ -42,6 +42,6 @@ public class FactorialController {
 
         List<_Factorial> factList = new FactorialController().factInit(nth);
         for (_Factorial factorial : factList)
-            factorial.print();  //Console output fibonacci results
+            factorial.print();  //Console output factorial results
     }
 }
