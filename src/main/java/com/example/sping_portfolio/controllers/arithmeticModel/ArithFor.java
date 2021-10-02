@@ -9,9 +9,11 @@ public class ArithFor extends _Arithmetic {
     protected void init() {
         super.name = "For";
         long limit = super.size;
-        for (long[] f = new long[]{0, 1}; limit-- > 0; f = new long[]{f[1], f[0] + f[1]})
+        int count = 5;
+        for (long[] f = new long[]{0, 1}; limit-- > 0; f = new long[]{f[1], f[1] + count})
             super.setData(f[0]);
-    }
+        count++;
+        }
 
     public static void main(String[] args) {
         int num = 20;   //number of Fibs, 92 is max for long
