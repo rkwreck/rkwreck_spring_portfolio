@@ -18,6 +18,23 @@
 
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
+
+    <script>
+    function arithmetic(){
+    let initialValue = document.getElementById("yintField").value;
+    document.write('<pre>')
+        //   document.writeln("The initial value is " + ynum + ".");
+
+        let count = 0;     //create the arithmetic sequence
+        while (count < iteration) {
+            document.write(num1 + " ");
+            let num2 = num1 + 5;
+            num1 = num2;
+            count += count;
+        }
+    }
+    </script>
+
     <div class="contact" style="height: 35vh;">
         <div class="row justify-content-left" style="margin: 2%;">
             <form action="/arithmeticSequence" method="GET" id="greetForm">
@@ -25,6 +42,7 @@
                     <h1 style="text-align: center;">ARITHMETIC SEQUENCE</h1>
                     <label for="yintField">What is the initial value?</label>
                     <input type="text" name="initVal" id="yintField" value="0">
+                    <input type = "button" onclick = "arithmetic()" value = "Display">
                     <button>Go!</button>
                    <!--- <label for="slopeField">What is the common difference?</label>
                     <input type="text" name="cdVal" id="slopeField" value="2">
@@ -73,21 +91,7 @@
 
            <!--- <h3 style="text-align: center;">Initial Value</h3> -->
             <p th:text="'The initial value is ' + ynum + '.'"></p>
-                <script>
-                        function arithmetic(){
-                            let initialValue = document.getElementById("yintField").value;
-                            document.write('<pre>')
-                         //   document.writeln("The initial value is " + ynum + ".");
 
-                            let count = 0;     //create the arithmetic sequence
-                            while (count < iteration) {
-                                document.write(num1 + " ");
-                                let num2 = num1 + 5;
-                                num1 = num2;
-                                count += count;
-                            }
-                        }
-                    </script>
 
                    <!--- <script>
                          function arithmetic() {
