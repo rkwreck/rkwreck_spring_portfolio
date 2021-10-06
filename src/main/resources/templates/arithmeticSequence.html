@@ -19,21 +19,6 @@
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
 
-    <script>
-    function arithmetic(){
-    let initialValue = document.getElementById("yintField").value;
-    document.write('<pre>')
-        //   document.writeln("The initial value is " + ynum + ".");
-
-        let count = 0;     //create the arithmetic sequence
-        while (count < iteration) {
-            document.write(num1 + " ");
-            let num2 = num1 + 5;
-            num1 = num2;
-            count += count;
-        }
-    }
-    </script>
 
     <div class="contact" style="height: 35vh;">
         <div class="row justify-content-left" style="margin: 2%;">
@@ -42,133 +27,95 @@
                     <h1 style="text-align: center;">ARITHMETIC SEQUENCE</h1>
                     <label for="yintField">What is the initial value?</label>
                     <input type="text" name="initVal" id="yintField" value="0">
-                    <input type = "button" onclick = "arithmetic()" value = "Display">
-                    <button>Go!</button>
-                   <!--- <label for="slopeField">What is the common difference?</label>
-                    <input type="text" name="cdVal" id="slopeField" value="2">
-                    <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
-                    <input type="text" name="iteration" id="iteration" value="3">
-                    <button id="button" onClick="arithmetic()">Enter</button>
-                    <form id="asForm" action="/as" method="GET">
-                        <input name="aseq" id="aseq" type="number" min="0" max="100">
-                        <button>Enter</button> -->
-                    </form>
+                    <!---<input type = "button" onClick = "arithmetic()" value = "Go"> --->
+                    <button> "Go" </button>
+                     <label for="slopeField">What is the common difference?</label>
+                     <input type="text" name="cdVal" id="slopeField" value="2">
+                     <label for="iteration">How many numbers of the Arithmetic Sequence do you need?</label>
+                     <input type="text" name="iteration" id="iteration" value="3">
+                     <button id="button" onClick="arithmetic()">Enter</button>
+                     <form id="asForm" action="/as" method="GET">
+                         <input name="aseq" id="aseq" type="number" min="0" max="100">
+                         <button>Enter</button> -->
+            </form>
 
-                <table class="table table-bordered tabl=striped">
-                    <thead class="thead-dark">
-                    <th>Method</th>
-                    <th>Time</th>
-                    <th>Number</th>
-                    <th>List</th>
-                     </thead>
+            <script>
+                function arithmetic() {
+                    let ynum = document.getElementById("yintField").value;
+                    let slope = document.getElementById("slopeField").value;
+                    let inum = document.getElementById("iteration").value;
+
+                    document.write('<pre>')
+                    document.writeln("The initial value is " + ynum + ". ");
+                    document.writeln("The common difference is " + slope + ". ");
+                    document.writeln("The number of iterations is " + inum + ". ");
+
+                    let snum = parseInt(slope);
+                    let num1 = parseInt(ynum);
+                    let iteration = parseInt(inum);
+                    let count = 0;
+
+                    while (count < 10) {
+                        document.write(num1 + " ");
+                        num1 = num + 5;
+                        let num1 = 5;
+                        num1 = num2;
+                        count = count + 1;
+                    }
+                }
+            </script>
+
+            <div class="col-md-6">
+                <h3>Comparisons</h3>
+                <table class="mx-auto">
                     <tbody>
                     <tr>
-                        <td>For Loop</td>
-                        <td>seconds</td>
-                        <td>number</td>
-                        <td>list</td>
+                        <th scope="col">Method </th>
+                        <th scope="col">Time </th>
+                        <th scope="col">First term</th>
+                        <th scope="col">List</th>
                     </tr>
                     <tr>
-                        <td>While Loop</td>
-                        <td>seconds</td>
-                        <td>number</td>
-                        <td>list</td>
+                        <td>For</td>
+                        <td>35000</td>
+                        <td>1</td>
+                        <td>[0,1]</td>
                     </tr>
                     <tr>
-                        <td>Recursion</td>
-                        <td>seconds</td>
-                        <td>number</td>
-                        <td>list</td>
+                        <td>While</td>
+                        <td>18000</td>
+                        <td>1</td>
+                        <td>[0,1]</td>
                     </tr>
                     <tr>
                         <td>Stream</td>
-                        <td>seconds</td>
-                        <td>number</td>
-                        <td>list</td>
+                        <td>91000</td>
+                        <td>1</td>
+                        <td>[0,1]</td>
+                    </tr>
+                    <tr>
+                        <td>Stream</td>
+                        <td>91000</td>
+                        <td>1</td>
+                        <td>[0,1]</td>
                     </tr>
                     </tbody>
-                 </table>
-
-           <!--- <h3 style="text-align: center;">Initial Value</h3> -->
-            <p th:text="'The initial value is ' + ynum + '.'"></p>
-
-
-                   <!--- <script>
-                         function arithmetic() {
-                            let ynum = document.getElementById("yintField").value;
-                            let slope = document.getElementById("slopeField").value;
-                            let inum = document.getElementById("iteration").value;
-
-
-                            document.write('<pre>')
-                            document.writeln("The initial value is " + ynum + ". ");
-                            document.writeln("The common difference is " + slope + ". ");
-                            document.writeln("The number of iterations is " + inum + ". ");
-
-
-                            let snum = parseInt(slope);
-                            let num1 = parseInt(ynum);
-                            let iteration = parseInt(inum);
-                            let count = 0;
-
-                            while (count < iteration) {
-
-                                document.write(num1 + " ");
-
-                                let num2 = num1 + snum;
-                                num1 = num2;
-                                count = count + 1;
-                            }
+                    <style>
+                        table, td, th {
+                            border: 1px solid var(--dblue);
                         }
-                    </script> -->
-
-                <!--
-                <div class="col-md-6">
-                    <h3>Comparisons</h3>
-                    <table class="mx-auto">
-                        <tbody>
-                        <tr>
-                            <th scope="col">Method </th>
-                            <th scope="col">Time </th>
-                            <th scope="col">Number</th>
-                            <th scope="col">List</th>
-                        </tr>
-                        <tr>
-                            <td>For</td>
-                            <td>35000</td>
-                            <td>1</td>
-                            <td>[0,1]</td>
-                        </tr>
-                        <tr>
-                            <td>While</td>
-                            <td>18000</td>
-                            <td>1</td>
-                            <td>[0,1]</td>
-                        </tr>
-                        <tr>
-                            <td>Stream</td>
-                            <td>91000</td>
-                            <td>1</td>
-                            <td>[0,1]</td>
-                        </tr>
-                        <tr>
-                            <td>Stream</td>
-                            <td>91000</td>
-                            <td>1</td>
-                            <td>[0,1]</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                </div>
-            </form>
+                        td, th {
+                            text-align:left;
+                        }
+                    </style>
+                </table>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+            <!-- End of body content specific to page -->
         </div>
-    </div> -->
-    <!-- End of body content specific to page -->
-</div></body>
+</body>
 
 </html>
-
-
-<!--test-->
