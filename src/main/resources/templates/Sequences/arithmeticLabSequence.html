@@ -4,40 +4,64 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <!-- Start of head content specific to page -->
+    <!--- Start of head content specific to page -->
     <title>Arithmetic Sequence</title>
-    <style>
+
+    <!---<style>
         img {
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
-    </style>
-    <!-- End of head content specific to page -->
+    </style> --->
+    <!--- End of head content specific to page --->
 </div></head>
 
 <body><div layout:fragment="content" th:remove="tag">
-    <!-- Start of body content specific to page -->
+    <!--- Start of body content specific to page --->
     <div class="contact" style="height: 35vh;">
+        <!--<style>
+            .block {
+                display: inline-block;
+                width: 100%;
+                height: 65px;
+                border: none;
+                background-color: #000000;
+                color: black;
+                padding: 14px 28px;
+                font-size: 20px;
+                cursor: pointer;
+                text-align: center;
+                margin: 10px;
+            .block:hover {
+                background-color: #000000;
+                color: black;
+            }
+            .pageTitle {
+                text-align: center;
+                margin: 20px;
+            }
+            }
+        </style> -->
         <div class="row justify-content-left" style="margin: 2%;">
             <form action="/arithmeticLabSequence" method="GET" id="greetForm">
                 <div>
                     <h1 style="text-align: center;">ARITHMETIC SEQUENCE</h1>
-
                     <div class="jumbotron text-center row">
-                        <!-- Input -->
+                        <!--- Input --->
                         <div class="col-md-6">
-                            <h3>Type the nth number in the fibonacci sequence?</h3>
+                            <h3>How many terms in the arithmetic sequence?</h3>
                             <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
-                            <form id="arithForm" action="/fib" method="GET" >
+                            <form id="arithForm" action="/arith" method="GET" >
                                 <input name="arithseq" id="arithseq" type="number" min="2" max="92" >
                                 <button>Go!</button>
                             </form>
                         </div>
-                        <!-- Output/Result -->
+                        <!--- Output/Result -->
                         <div class="col-md-6">
                             <h3>Algorithm comparison</h3>
                             <table class="mx-auto">
+
                                 <tr>
                                     <th scope="col">Method</th>
                                     <th scope="col">Time</th>
@@ -58,10 +82,15 @@
             </form>
         </div>
     </div>
+    <style>
+        table, td, th {
+            border: 1px solid var(--dblue);
+        }
+        td, th {
+            text-align:left;
+        }
+    </style>
     <!-- End of body content specific to page -->
 </div></body>
 
 </html>
-
-
-<!--test-->

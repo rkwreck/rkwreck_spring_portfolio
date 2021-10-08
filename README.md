@@ -27,7 +27,7 @@
 | Name | Requirement | Evidence | Grade |
 | ---- | ----------- | -------- | ----- |
 | Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[ ] done?</li></ul> |
-| Rachel | Modeling Improvements / TPT 5 Minilab | [Issue1](https://github.com/rkwreck/team_giraffe_website/issues/34) / [Issue2](https://github.com/rkwreck/team_giraffe_website/issues/38) | <ul><li>[ ] done?</li></ul> |
+| Rachel | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[ ] done?</li></ul> |
 | Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | <ul><li>[ ] done?</li></ul> |
 | Maggie | Control Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/36) | <ul><li>[ ] done?</li></ul> |
 

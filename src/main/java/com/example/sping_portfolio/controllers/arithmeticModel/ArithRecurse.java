@@ -11,14 +11,14 @@ public class ArithRecurse extends _Arithmetic {
         //setup for recursion
         super.name = "Recursion";
         long limit = super.size;
-        long[] f = new long[]{0, 1};
-        initRecurse(limit,f, 2);
+        long[] f = new long[]{1, 5};
+        int count = 4;
+        initRecurse(limit,f, 4);
     }
 
     private void initRecurse(long limit, long[] f, int count) {
         if (limit == 0) return;
         super.setData(f[0]);
-        count ++;
         initRecurse(--limit, new long[]{f[1], f[1] + count}, count);
     }
 
