@@ -11,7 +11,7 @@ public class ArithWhile extends _Arithmetic {
     protected void init() {
         super.name = "While";
         long limit = super.size;
-        long[] f = new long[]{0, 1};
+        long[] f = new long[]{1, 5};
         int count = 5;
         while (limit-- > 0) {
             super.setData(f[0]);

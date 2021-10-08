@@ -17,19 +17,14 @@ public abstract class _Arithmetic {
     ArrayList<Long> list;
     HashMap<Integer, Object> hash;
 
-    /*
-     Construct the nth com.tri3.nighthawk.fibonacci number
-     @param: nth constrained to 92 because of maximum long
-     */
     public _Arithmetic(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
         this.hash = new HashMap<>();
-        //initialize fibonacci and time algorithm
-        Instant start = Instant.now();  // time capture -- start
+        Instant start = Instant.now();
         this.init();
-        Instant end = Instant.now();    // time capture -- end
+        Instant end = Instant.now();
         this.timeElapsed = Duration.between(start, end);
     }
 

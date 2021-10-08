@@ -11,7 +11,7 @@ public class ArithStream extends _Arithmetic {
     protected void init() {
         super.name = "Stream";
         int count = 5;
-        Stream.iterate(new long[]{0, 1}, f -> new long[]{f[1], f[1] + 4})
+        Stream.iterate(new long[]{1, 5}, f -> new long[]{f[1], f[1] + 4})
                 .limit(super.size)
                 .forEach(f -> super.setData(f[0]) );
     }
