@@ -15,11 +15,18 @@ public class modeling {
 
     }
 
-    public class lii {
+    ArrayList<ii> lii = new ArrayList<>();
 
-        ArrayList<ii> lii = new ArrayList<ii>();
-
+    public void add() {
+        ii file0 = new ii("/images/Mona_Lisa.png");
+        lii.add(file0);
+        ii file1 = new ii("/images/bulb_on.gif");
+        lii.add(file1);
+        ii file2 = new ii("/bulb_off.png");
+        lii.add(file2);
     }
+
+
 
     public class ii {
         public String file;
@@ -46,6 +53,8 @@ public class modeling {
             this.description = descrip;
             this.base64 = base;
         }
+
+
 
 
     }
