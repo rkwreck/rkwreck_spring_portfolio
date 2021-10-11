@@ -1,10 +1,16 @@
 package com.example.sping_portfolio.controllers.modeling;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import lombok.Getter;
+import java.util.Base64;
+
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
+
 
 @Getter
 public class modeling {
@@ -36,7 +42,7 @@ public class modeling {
         }
 
         ArrayList<iprop> list = new ArrayList<iprop>();
-        iprop test = new iprop("hello", "hi");
+        iprop test = new iprop("hello", "hi", "whatever");
 
         public void add() {
             list.add(test);
@@ -48,10 +54,12 @@ public class modeling {
     public class iprop {
         public String description;
         public String base64;
+        public String rgb;
 
-        public iprop(String descrip, String base) {
+        public iprop(String descrip, String base, String rgbattr) {
             this.description = descrip;
             this.base64 = base;
+            this.rgb = rgbattr;
         }
 
 
