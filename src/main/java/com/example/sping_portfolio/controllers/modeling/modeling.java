@@ -55,18 +55,22 @@ public class modeling {
     }
 
     public int[][][] rgb() {
-
-
+        int intArray[][][] = new int[20][][];
+        return intArray;
 
     }
 
     public String hexa() {
+        return "hello";
 
     }
 
     public int[][][] binary() {
+        int intArray[][][] = new int[20][][];
+        return intArray;
 
     }
+     /////
 
 }
 
