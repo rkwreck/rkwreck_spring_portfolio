@@ -32,18 +32,15 @@ public class ImageController {
         String file2 = "/images/bulb_off.png";
         lii.put("bulb_off", new ImageInfo(file2, web_server+file2, 7));
 
-        String returnString = "/image";
-
-        if (true){
+        if (grayscale == "on"){
             lii.forEach((k,v) -> v.grayscale());
         }
         else{
             lii.forEach((k,v) -> v.read_image());
-            returnString = "/image";
         }
         List<ImageInfo> list = new ArrayList<ImageInfo>(lii.values());
         model.addAttribute("lii", list);
-        return returnString;
+        return "/image";
     }
 
 
