@@ -13,6 +13,12 @@
 <body>
 <div layout:fragment="content" th:remove="tag">
     <div class="container">
+        <style>
+            <!-- make the images grayscale-->
+            img {
+                filter: grayscale(100%);
+            }
+        </style>
         <h1 class="text-center">RGB values within an Image</h1>
         <p><small><a href="/image/grayscale">Grayscale</a></small></p>
         <div class="row justify-content-md-center">
@@ -40,7 +46,7 @@
                                 <tr>
                                     <th>Row</th>
                                     <th>Column</th>
-                                    <th>RGB</th>
+                                    <!--- <th>RGB</th> -->
                                     <th>Hex Code</th>
                                     <th>Binary</th>
                                 </tr>
@@ -50,7 +56,7 @@
                                         <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
                                             <td th:text="${ii.getScaled_height(row)}">row</td>
                                             <td th:text="${ii.getScaled_width(col)}">column</td>
-                                            <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                            <!-- <td th:text="${ii.getRGB(row,col)}">cell</td> -->
                                             <td th:text="${ii.getHexCode(row,col)}">cell</td>
                                             <td th:text="${ii.getBinary(row,col)}">cell</td>
                                         </tr>

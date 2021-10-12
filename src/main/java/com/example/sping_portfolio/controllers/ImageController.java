@@ -14,9 +14,10 @@ import java.util.List;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class ImageController {
     @GetMapping("/image")
+    /*
     public String image(Model model)  {
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+        String web_server = "http://localhost:8080/";
+        //String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/Mona_Lisa.png";
@@ -33,12 +34,13 @@ public class ImageController {
 
         model.addAttribute("lii", lii);
         return "starters/image";
-    }
+    } */
 
-    @GetMapping("/image/grayscale")
-    public String image_grayscale(Model model) {
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+    //@GetMapping("/image")
+    public String image (Model model) {
+    //public String image_grayscale(Model model) {
+        String web_server = "http://localhost:8080/";
+        //String web_server = "https://csa.nighthawkcodingsociety.com";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/blue-square-16.gif";
@@ -46,6 +48,8 @@ public class ImageController {
         String str = lii.get(0).grayscale();
 //        String str = lii.get(0).grayscale();
         model.addAttribute("str", str);
-        return "starters/image_grayscale";
+        //return "starters/image_grayscale";
+        return "starters/image";
     }
 }
+

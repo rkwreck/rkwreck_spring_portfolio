@@ -78,7 +78,7 @@ public class modeling {
         ArrayList<iprgb> rgb = new ArrayList<iprgb>();
 
         public void add() {
-            rgb.add(iprgb.int);
+            //rgb.add(iprgb.int);
         }
     }
 
