@@ -15,8 +15,8 @@
     <div class="container">
         <style>
             <!-- make the images grayscale-->
-            img {
-                filter: grayscale(100%);
+            .gray {
+                    filter: grayscale(100%);
             }
         </style>
         <h1 class="text-center">RGB values within an Image</h1>
@@ -29,6 +29,8 @@
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+
+        <button onclick="grayFunction()">Grayscale</button>
 
         <div class="row justify-content-md-center">
             <table class="table">
@@ -46,7 +48,7 @@
                         <div th:text="'(' + ${ii.getHeight()} + ',' + ${ii.getWidth()} + ')'">Height,Width</div>
                     </td>
                     <td>
-                        <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt="" src="${ii.getFile()}" width=128 height="Auto">
+                        <img id="test" class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt="" src="${ii.getFile()}" width=128 height="Auto">
                     </td>
                     <td>
                         <div class="overflow-auto" style="height: 256px">
@@ -55,7 +57,7 @@
                                 <tr>
                                     <th>Row</th>
                                     <th>Column</th>
-                                    <!--- <th>RGB</th> -->
+                                    <th>RGB</th>
                                     <th>Hex Code</th>
                                     <th>Binary</th>
                                 </tr>
@@ -65,7 +67,7 @@
                                         <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
                                             <td th:text="${ii.getScaled_height(row)}">row</td>
                                             <td th:text="${ii.getScaled_width(col)}">column</td>
-                                            <!-- <td th:text="${ii.getRGB(row,col)}">cell</td> -->
+                                            <td th:text="${ii.getRGB(row,col)}">cell</td>
                                             <td th:text="${ii.getHexCode(row,col)}">cell</td>
                                             <td th:text="${ii.getBinary(row,col)}">cell</td>
                                         </tr>
@@ -80,7 +82,14 @@
 
         </div>
 
+
     </div>
+    <script>
+        var img = document.getElementById('test');
+        function grayFunction() {
+            img.classList.toggle("gray");
+        }
+    </script>
 </div>
 </body>
 
