@@ -21,7 +21,7 @@
 
 
 ## Modeling Checkpoint, Unit 7
-#### Video Explanation:
+#### Video Explanation: video is too long to upload on github
 #### Individual journal links above in "Individual Checks for each week"
 #### **Modeling**
 | Name | Requirement | Evidence (in Issue comments) | Grade |
