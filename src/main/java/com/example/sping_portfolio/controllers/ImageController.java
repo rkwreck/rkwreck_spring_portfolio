@@ -32,6 +32,27 @@ public class ImageController {
         String file2 = "/images/bulb_off.png";
         lii.put("bulb_off", new ImageInfo(file2, web_server+file2, 7));
 
+        String file3 = "/images/giraffe_albino.png";
+        lii.put("albino_giraffe", new ImageInfo(file3, web_server+file3, 7));
+
+        String file4 = "/images/giraffe_sky.png";
+        lii.put("giraffe_sky", new ImageInfo(file4, web_server+file4, 7));
+
+        String file5 = "/images/giraffe_smile.png";
+        lii.put("giraffe_smile", new ImageInfo(file5, web_server+file5, 7));
+
+        String file6 = "/images/giraffe_walking.png";
+        lii.put("giraffe_walking", new ImageInfo(file6, web_server+file6, 7));
+
+        String file7 = "/images/giraffe_smelling.png";
+        lii.put("giraffe_smelling", new ImageInfo(file7, web_server+file7, 7));
+
+        String file8 = "/images/giraffe_head.png";
+        lii.put("giraffe_head", new ImageInfo(file8, web_server+file8, 7));
+
+        String file9 = "/images/giraffe_trick.png";
+        lii.put("giraffe_trick", new ImageInfo(file9, web_server+file9, 7));
+
         if (grayscale == "on"){
             lii.forEach((k,v) -> v.grayscale());
         }
