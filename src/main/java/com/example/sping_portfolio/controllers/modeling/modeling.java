@@ -1,3 +1,5 @@
+/*
+
 package com.example.sping_portfolio.controllers.modeling;
 import java.awt.image.DataBufferByte;
 import java.io.ByteArrayOutputStream;
@@ -194,5 +196,5 @@ public class modeling {
 }
 
 
-
+*/
 
