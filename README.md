@@ -21,15 +21,16 @@
 
 
 ## Modeling Checkpoint, Unit 7
-#### Video Explaination:
-#### Link to model code: https://github.com/rachelklee/nighthawk_csa
+#### Individual journal links above in "Individual Checks for each week"
 #### **Modeling**
-| Name | Requirement | Evidence | Grade |
+| Name | Requirement | Evidence (in Issue comments) | Grade |
 | ---- | ----------- | -------- | ----- |
-| Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[ ] done?</li></ul> |
-| Rachel | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[ ] done?</li></ul> |
-| Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | <ul><li>[ ] done?</li></ul> |
-| Maggie | Control Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/36) | <ul><li>[ ] done?</li></ul> |
+| Team | Week 7 Review Ticket | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/46) | <ul><li>[x] done?</li></ul> |
+| Team | Video Explanation | [Video Link](https://drive.google.com/file/d/1-t1AWClNFniTE8uKsjixU30BmBHIAUR2/view?usp=sharing) | <ul><li>[x] done?</li></ul> |
+| Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[x] done?</li></ul> |
+| Rachel | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[x] done?</li></ul> |
+| Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | <ul><li>[x] done?</li></ul> |
+| Maggie | Control Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/36) | <ul><li>[x] done?</li></ul> |
 
 
 ## Algorithm Extend Lab, Unit 6

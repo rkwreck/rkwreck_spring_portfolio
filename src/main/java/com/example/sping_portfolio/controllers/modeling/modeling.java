@@ -56,8 +56,6 @@ public class modeling {
         iprop gray = new iprop("greyscale info", gsbase64);
 
 
-
-
         public void add() {
 
             list.add(original);
@@ -80,7 +78,7 @@ public class modeling {
         ArrayList<iprgb> rgb = new ArrayList<iprgb>();
 
         public void add() {
-            rgb.add(iprgb.int);
+            //rgb.add(iprgb.int);
         }
     }
 
@@ -93,13 +91,14 @@ public class modeling {
         }
 
         public String hexa() {
-            return "hello";
+            String hex = new String("######");
+            return hex;
 
         }
 
         public int[][][] binary() {
-            int intArray[][][] = new int[20][][];
-            return intArray;
+            int binArray[][][] = new int[20][][];
+            return binArray;
 
         }
 
