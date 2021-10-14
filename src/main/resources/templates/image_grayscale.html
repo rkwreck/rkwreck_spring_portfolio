@@ -14,7 +14,9 @@
 <div layout:fragment="content" th:remove="tag">
     <div class="container">
         <h1 class="text-center">Grayscale Images</h1>
-        <img th:src="${str}">
+        <p th:each="ii: ${lii}">
+        <img th:src="${ii}">
+        </p>
     </div>
 </div>
 </body>

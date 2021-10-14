@@ -1,6 +1,7 @@
 # Team Giraffe Repository
 
 ## Scrum Team
+### Shoutout to the Github team for dettaching our fork
 #### Team Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1
 #### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
 | Name | Profile | Scrum Board | Tasks | Commits |
@@ -21,11 +22,12 @@
 
 
 ## Modeling Checkpoint, Unit 7
-#### Video Explanation:
 #### Individual journal links above in "Individual Checks for each week"
 #### **Modeling**
 | Name | Requirement | Evidence (in Issue comments) | Grade |
 | ---- | ----------- | -------- | ----- |
+| Team | Week 7 Review Ticket | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/46) | <ul><li>[x] done?</li></ul> |
+| Team | Video Explanation | [Video Link](https://drive.google.com/file/d/1-t1AWClNFniTE8uKsjixU30BmBHIAUR2/view?usp=sharing) | <ul><li>[x] done?</li></ul> |
 | Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[x] done?</li></ul> |
 | Rachel | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[x] done?</li></ul> |
 | Rini | View/Frontend Improvement | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/35) | <ul><li>[x] done?</li></ul> |
