@@ -1,6 +1,7 @@
 # Team Giraffe Repository
 
 ## Scrum Team
+### Shoutout to the Github team for dettaching our fork
 #### Team Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1
 #### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
 | Name | Profile | Scrum Board | Tasks | Commits |
