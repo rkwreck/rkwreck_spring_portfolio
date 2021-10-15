@@ -16,7 +16,8 @@ public class ASCIIArt {
 
     /*make changes here!!!*/
     public static double getBrightness(Color c) {
-        return 0.3*(c.getRed()/255.0) + 0.59*(c.getGreen()/255.0) + 0.11*(c.getBlue()/255.0);
+        // return 0.3*(c.getRed()/255.0) + 0.59*(c.getGreen()/255.0) + 0.11*(c.getBlue()/255.0);
+        return ((c.getRed()/255.0) + (c.getGreen()/255.0) + (c.getBlue()/255.0))/3.0;
     }
     
     /**
