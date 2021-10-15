@@ -13,7 +13,7 @@
       margin-right: auto;
     }
   </style>
-  <!-- End of head content specific to page -->
+  <!- End of head content specific to page -->
 </div></head>
 
 <body><div layout:fragment="content" th:remove="tag">
@@ -22,13 +22,14 @@
     <div class="row justify-content-left" style="margin: 2%;">
       <form action="/greetChenxin" method="GET" id="greetForm">
         <div>
-          <h1 style="text-align: center;">ABOUT US</h1>
+          <h1 class="pageTitle">About Us</h1>
+          <!--- <h1 style="text-align: center;">ABOUT US</h1> --->
           <p th:text="'Greetings! My name is Chenxin.'"></p>
           <label for="greetField">What's your name?</label>
           <input name="name" id="greetField">
           <button>Greetings!</button>
           <p th:text="'Hello, ' + ${name} + '!'"></p>
-          <img src="/static/images/portrait1.jpg" th:src="@{/images/portrait1.jpg}" width="250" height="300" alt="Chenxin's photo">
+          <img src="/static/images/portrait1.jpg" th:src="@{/images/portrait1.jpg}" width="250" height="300" alt="Chenxin's photo" class = "center">
           <p th:text="'I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
         </div>
       </form>
