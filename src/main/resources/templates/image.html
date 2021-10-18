@@ -14,23 +14,22 @@
 <div layout:fragment="content" th:remove="tag">
     <div class="container">
         <style>
-            <!-- make the images grayscale-->
-            .gray {
-                    filter: grayscale(100%);
+            img {
+                filter: grayscale(100%);
             }
         </style>
         <h1 class="text-center">RGB values within an Image</h1>
 
-        <form action="">
+        <!-- <form action="/image">
             <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="grayparam" name="grayparam" value="on">
+                <input type="checkbox" class="custom-control-input" id="grayparam" name="grayparam">
                 <label class="custom-control-label" for="grayparam">Grayscale</label>
             </div>
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-
         <button onclick="grayFunction()">Grayscale</button>
+        -->
 
         <div class="row justify-content-md-center">
             <table class="table">
@@ -48,7 +47,7 @@
                         <div th:text="'(' + ${ii.getHeight()} + ',' + ${ii.getWidth()} + ')'">Height,Width</div>
                     </td>
                     <td>
-                        <img id="test" class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt="" src="${ii.getFile()}" width=128 height="Auto">
+                        <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt="" src="${ii.getFile()}" width=128 height="Auto">
                     </td>
                     <td>
                         <div class="overflow-auto" style="height: 256px">
@@ -84,12 +83,13 @@
 
 
     </div>
-    <script>
+    <!-- <script>
         var img = document.getElementById('test');
         function grayFunction() {
             img.classList.toggle("gray");
         }
     </script>
+    -->
 </div>
 </body>
 
