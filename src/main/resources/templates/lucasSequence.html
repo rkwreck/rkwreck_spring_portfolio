@@ -23,13 +23,12 @@
             <form action="/lucas" method="GET" id="greetForm">
                 <div>
                     <h1 style="text-align: center;">LUCAS SEQUENCE</h1>
-
+                    <div class="jumbotron text-center row" style="background-color: #df9c36">
                     <!-- Form and Action -->
-                    <div class="jumbotron text-center row" >
                         <!-- Input -->
                         <div class="col-md-6">
                             <h3 style="background-color:#df9c36">Type the nth number in the lucas sequence?</h3>
-                            <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
+                            <img class="img-responsive py-3" th:src="@{/images/lucas_sequence_general.png}" alt="" width="50%" height="Auto">
                             <form id="lucasForm" action="lucas" method="GET" >
                                 <input name="lucasseq" id="lucasseq" type="number" min="2" max="92" >
                                 <button>Go!</button>
@@ -58,6 +57,14 @@
             </form>
         </div>
     </div>
+    <style>
+        table, td, th {
+            border: 1px solid var(--dblue);
+        }
+        td, th {
+            text-align:left;
+        }
+    </style>
     <!-- End of body content specific to page -->
 </div></body>
 

@@ -24,26 +24,21 @@
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
         }
-
         .block:hover {
             background-color: #ddd;
             color: black;
             width: 100%;
             transition: all .4s cubic-bezier(0.65, 0, 0.076, 1);
         }
-
         .pageTitle {
             text-align: center;
             margin: 20px;
 
         }
-
         .articles {
             position: relative;
             margin: 10px;
         }
-
-
     </style>
 </div></head>
 
@@ -55,8 +50,8 @@
         <h3 style="text-align:center;">AP CSA, Period 1</h3>
         <p style="text-align: center;">Chenxin Ni, Maggie Killada, Rachel Lee, Rini Khandelwal</p>
         <br>
-        <button type="button" class="block" onclick="window.location.href='/';">
-            home
+        <!--- <button type="button" class="block" onclick="window.location.href='/';">
+            home --->
         </button>
         <button type="button" class="block" onclick="transitionToPage('/Stocks')">
             stocks
@@ -70,6 +65,9 @@
         <button type="button" class="block" onclick="transitionToPage('/labs')">
             labs
         </button>
+        <!-- add landscape image to the bottom of the page -->
+        <!--- <img src="giraffe_landscape.png" style="width: 55vw; min-width: 330px;" /> --->
+        <img class="img-responsive py-3" th:src="@{/images/giraffe_landscape.PNG}" alt="" width="50%" height="auto">
     </div>
     <!-- End of body content specific to page -->
 </div></body>
