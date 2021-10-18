@@ -71,6 +71,28 @@
     <!-- End of body content specific to page -->
 </div></body>
 
+<div layout:fragment="script" th:remove="tag">
+    <!--- Start of custom script specific to page --->
+    <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
+    <script src="/static/vanta/vanta.fog.min.js" th:src="@{/vanta/vanta.fog.min.js}"></script>
+    <script>
+        VANTA.FOG({
+            el: "body",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            highlightColor: 0xe19428,
+            midtoneColor: 0xfcba03,
+            lowlightColor: 0xde2a7e,
+            baseColor: 0xf2cc51,
+            blurFactor: 0.84,
+            speed: 3.70
+    })
+</script>
+<!--- End of custom script specific to page --->
+</div>
 </html>
 
 <!--test-->
