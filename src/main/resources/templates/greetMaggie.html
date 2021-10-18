@@ -12,6 +12,15 @@
       margin-left: auto;
       margin-right: auto;
     }
+    body{
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
   </style>
   <!-- End of head content specific to page -->
 </div></head>
@@ -19,7 +28,7 @@
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
-    <div class="row justify-content-left" style="margin: 2%;">
+    <div class="row justify-content-center">
       <form action="/greetMaggie" method="GET" id="greetForm">
         <div>
           <h1 style="text-align: center;">ABOUT US</h1>
@@ -28,7 +37,7 @@
           <input name="name" id="greetField">
           <button>Greetings!</button>
           <p th:text="'Hello, ' + ${name} + '!'"></p>
-          <img src="/static/images/maggie.jfif" th:src="@{/images/maggie.jfif}" width="250" height="300" alt="Maggie's photo">
+          <img src="/static/images/maggie.jfif" th:src="@{/images/maggie.jfif}" width="250" height="250" alt="Maggie's photo">
           <p th:text="'I like to take pictures and play video games in my freetime!'"></p>
         </div>
       </form>

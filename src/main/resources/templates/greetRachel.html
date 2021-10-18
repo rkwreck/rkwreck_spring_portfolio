@@ -12,6 +12,15 @@
       margin-left: auto;
       margin-right: auto;
     }
+    body{
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
   </style>
   <!-- End of head content specific to page -->
 </div></head>
@@ -19,7 +28,7 @@
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
-    <div class="row justify-content-left" style="margin: 2%;">
+    <div class="row justify-content-center">
       <form action="/greetRachel" method="GET" id="greetForm">
         <div>
           <h1 style="text-align: center;">ABOUT US</h1>

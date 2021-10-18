@@ -6,11 +6,21 @@
 <head><div layout:fragment="metadata" th:remove="tag">
   <!-- Start of head content specific to page /
   <title>GreetChenxin</title>
+  -->
   <style>
     img {
       display: block;
       margin-left: auto;
       margin-right: auto;
+    }
+    body{
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
     }
   </style>
   <!- End of head content specific to page -->
@@ -18,8 +28,8 @@
 
 <body><div layout:fragment="content" th:remove="tag">
   <!-- Start of body content specific to page -->
-  <div class="contact" style="height: 35vh;">
-    <div class="row justify-content-left" style="margin: 2%;">
+  <div class="contact">
+    <div class="row justify-content-center">
       <form action="/greetChenxin" method="GET" id="greetForm">
         <div>
           <h1 class="pageTitle">About Us</h1>
@@ -29,7 +39,7 @@
           <input name="name" id="greetField">
           <button>Greetings!</button>
           <p th:text="'Hello, ' + ${name} + '!'"></p>
-          <img src="/static/images/portrait1.jpg" th:src="@{/images/portrait1.jpg}" width="250" height="300" alt="Chenxin's photo" class = "center">
+          <img src="/static/images/portrait1.jpg" th:src="@{/images/portrait1.jpg}" width="250" height="300" alt="Chenxin's photo" class="center">
           <p th:text="'I like biking in canyon trails, and I have gotten stitches from falling off my bike!'"></p>
         </div>
       </form>
