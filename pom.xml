@@ -32,6 +32,8 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <addClassPath>true</addClassPath>
+                            <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>com.example.sping_portfolio.Main</mainClass>
                         </manifest>
                     </archive>
