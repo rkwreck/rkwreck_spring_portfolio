@@ -19,8 +19,8 @@ public class ImageController {
     @GetMapping("/image")
     public String image(Model model, @RequestParam(name="grayparam", required=false, defaultValue="off") String grayscale)  {
 
-        //String web_server = "http://localhost:8080/";
-        String web_server = "https://csa.nighthawkcodingsociety.com";
+        String web_server = "http://localhost:8080/";
+        //String web_server = "https://csa.nighthawkcodingsociety.com";
         Map<String, ImageInfo> lii = new HashMap<String, ImageInfo>();
 
         String file0 = "/images/Mona_Lisa.png";
