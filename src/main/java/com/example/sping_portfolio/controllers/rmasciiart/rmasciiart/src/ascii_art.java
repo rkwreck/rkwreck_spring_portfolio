@@ -27,10 +27,10 @@ public class ascii_art {
      */
     public static double[][] getGrayscaleArray(Picture picture) {
         int rows = picture.height();
-        int cols = picture.width();
-        double[][] image = new double[rows][cols];
+        int columns = picture.width();
+        double[][] image = new double[rows][columns];
         for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+            for (int j = 0; j < columns; j++) {
                 image[i][j] = getBrightness(picture.get(j, i));
             }
         }

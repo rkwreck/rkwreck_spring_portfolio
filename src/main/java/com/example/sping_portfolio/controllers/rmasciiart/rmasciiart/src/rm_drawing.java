@@ -16,9 +16,9 @@ public class rm_drawing {
         int width = r[0].length;
         Picture pic = new Picture(width, height);
         for (int row = 0; row < height; row++) {
-            for (int col = 0; col < width; col++) {
-                int rgb = r[row][col] << 16 | g[row][col] << 8 | b[row][col];
-                pic.setRGB(col, row, rgb);
+            for (int column = 0; column < width; column++) {
+                int rgb = r[row][column] << 16 | g[row][column] << 8 | b[row][column];
+                pic.setRGB(column, row, rgb);
             }
         }
         pic.show();

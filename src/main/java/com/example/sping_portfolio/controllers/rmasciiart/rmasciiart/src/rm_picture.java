@@ -29,7 +29,7 @@ public final class rm_picture implements ActionListener {
      * @throws IllegalArgumentException if {@code width} is negative or zero
      * @throws IllegalArgumentException if {@code height} is negative or zero
      */
-    public Picture(int width, int height) {
+    public rm_picture(int width, int height) {
         if (width  <= 0) throw new IllegalArgumentException("width must be positive");
         if (height <= 0) throw new IllegalArgumentException("height must be positive");
         this.width  = width;
@@ -44,7 +44,7 @@ public final class rm_picture implements ActionListener {
      * @param  picture the picture to copy
      * @throws IllegalArgumentException if {@code picture} is {@code null}
      */
-    public Picture(Picture picture) {
+    public rm_picture(Picture picture) {
         if (picture == null) throw new IllegalArgumentException("constructor argument is null");
 
         width  = picture.width();
@@ -64,7 +64,7 @@ public final class rm_picture implements ActionListener {
      * @throws IllegalArgumentException if cannot read image
      * @throws IllegalArgumentException if {@code name} is {@code null}
      */
-    public Picture(String name) {
+    public rm_picture(String name) {
         if (name == null) throw new IllegalArgumentException("constructor argument is null");
 
         this.filename = name;
@@ -112,7 +112,7 @@ public final class rm_picture implements ActionListener {
      * @throws IllegalArgumentException if cannot read image
      * @throws IllegalArgumentException if {@code file} is {@code null}
      */
-    public Picture(File file) {
+    public rm_picture(File file) {
         if (file == null) throw new IllegalArgumentException("constructor argument is null");
 
         try {

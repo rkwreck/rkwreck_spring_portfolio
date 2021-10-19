@@ -49,10 +49,10 @@ public class Array2D {
             }
         }
 
-        int index = 0;
-        while (index < x.length && index < x[index].length) {
-            x[index][index] = 7;
-            index++;
+        int number = 0;
+        while (number < x.length && number < x[number].length) {
+            x[number][number] = 7;
+            number++;
         }
 
         printArray(x, false);
