@@ -60,7 +60,7 @@ public class ascii_art {
     // picture is 1280 by 1162 pixels
 // blocks should divide by 83 across, divide by 128 down
     public static void main(String[] args) {
-        Picture picture = new Picture("https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-resize-lhYAb1aoDfGEZl.jpg");
+        Picture picture = new Picture("https://cdn5.vectorstock.com/i/1000x1000/66/29/cute-cartoon-giraffe-isolated-vector-22806629.jpg");
 
         double[][] image = getGrayscaleArray(picture);
         //double[][] blocks = getGrayscaleAverage(image);
