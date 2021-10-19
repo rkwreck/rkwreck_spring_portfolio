@@ -14,11 +14,11 @@ import java.io.IOException;
 import java.net.URL;
 
 public final class rm_picture implements ActionListener {
-    private BufferedImage image;               // the rasterized image
-    private JFrame frame;                      // on-screen view
-    private String filename;                   // name of file
-    private boolean isOriginUpperLeft = true;  // location of origin
-    private final int width, height;           // width and height
+    public BufferedImage image;               // the rasterized image
+    public JFrame frame;                      // on-screen view
+    public String filename;                   // name of file
+    public boolean isOriginUpperLeft = true;  // location of origin
+    public final int width, height;           // width and height
 
     /**
      * Creates a {@code width}-by-{@code height} picture, with {@code width} columns
@@ -50,11 +50,11 @@ public final class rm_picture implements ActionListener {
         width  = picture.width();
         height = picture.height();
         image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
-        filename = picture.filename;
+        /* filename = picture.filename;
         isOriginUpperLeft = picture.isOriginUpperLeft;
         for (int col = 0; col < width(); col++)
             for (int row = 0; row < height(); row++)
-                image.setRGB(col, row, picture.image.getRGB(col, row));
+                image.setRGB(col, row, picture.image.getRGB(col, row)); */
     }
 
     /**
