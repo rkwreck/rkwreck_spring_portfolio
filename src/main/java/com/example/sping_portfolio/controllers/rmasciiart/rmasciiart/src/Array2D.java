@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.rmasciiart;
+package com.example.sping_portfolio.controllers.rmasciiart.rmasciiart.src;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates

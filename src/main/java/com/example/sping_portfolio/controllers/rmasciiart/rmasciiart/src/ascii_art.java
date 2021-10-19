@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.rmasciiart;
+package com.example.sping_portfolio.controllers.rmasciiart.rmasciiart.src;
 import com.example.sping_portfolio.controllers.asciiArt.src.asciiart.Picture;
 
 import java.awt.Color;

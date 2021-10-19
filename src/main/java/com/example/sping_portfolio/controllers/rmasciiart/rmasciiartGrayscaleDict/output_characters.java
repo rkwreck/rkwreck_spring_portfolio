@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers.rmasciiart;
+package com.example.sping_portfolio.controllers.rmasciiart.rmasciiartGrayscaleDict;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
