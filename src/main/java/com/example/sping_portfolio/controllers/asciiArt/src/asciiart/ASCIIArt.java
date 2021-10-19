@@ -34,13 +34,11 @@ public class ASCIIArt {
                         count ++;
                     }
                 }
-
                 average[i/16][j/14] = sum/count;
             }
         }
         return average;
     }
-
      */
 
     /**
