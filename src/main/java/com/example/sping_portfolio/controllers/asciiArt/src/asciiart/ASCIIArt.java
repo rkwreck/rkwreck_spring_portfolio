@@ -18,7 +18,26 @@ public class ASCIIArt {
     public static double getBrightness(Color c) {
         return 0.3*(c.getRed()/255.0) + 0.59*(c.getGreen()/255.0) + 0.11*(c.getBlue()/255.0);
     }
-    
+
+    public static double[][] getGrayscaleAverage(double[][] grayscale) {
+        double[][] average = new double[80][83];
+        for (int i = 0; i < grayscale.length - 16; i += 16) {
+            for (int j = 0; j < grayscale[0].length - 14; j+= 14) {
+                double sum = 0;
+                int count = 1;
+                for (int k = i; k < k+16; k++) {
+                    for (int l = j; l < l+15; l++) {
+                        sum += grayscale[k][l];
+                        count ++;
+                    }
+                }
+
+                average[i/16][j/14] = sum/count;
+            }
+        }
+        return average;
+    }
+
     /**
      * Convert a picture object to a 2D array of grayscale floats
      * @param picture A picture object
@@ -36,6 +55,7 @@ public class ASCIIArt {
         return image;
     }
 
+    // convert double grayscale values to ascii
     public static String[][] getAsciiArray(double[][] grayscale) {
         int rows = grayscale.length;
         int cols = grayscale[0].length;
@@ -44,7 +64,6 @@ public class ASCIIArt {
             for (int j = 0; j < cols; j++) {
                 double gray = grayscale[i][j];
                 for (int k = 0; k < GRAYSCALE_VALUES.length; k++) {
-                    double random = GRAYSCALE_VALUES[k];
                     if (GRAYSCALE_VALUES[k] <= gray && gray < GRAYSCALE_VALUES[k+1]) {
                         ascii[i][j] = GRAYSCALE_LIST[k];
                     }
@@ -56,17 +75,22 @@ public class ASCIIArt {
         }
         return ascii;
     }
+    // picture is 1280 by 1162 pixels
 // blocks should divide by 83 across, divide by 128 down
     public static void main(String[] args) {
         Picture picture = new Picture("https://cdn.pixabay.com/photo/2014/04/03/00/35/giraffe-308771_1280.png");
+
         double[][] image = getGrayscaleArray(picture);
-        String[][] ascii = getAsciiArray(image);
+        double[][] blocks = getGrayscaleAverage(image);
+        String[][] ascii = getAsciiArray(blocks);
         for (String[] x : ascii) {
             for (String y : x) {
                 System.out.print(y + " ");
             }
             System.out.println();
         }
+
+
         // TODO: Make ASCII art.  You should define at least one method
         // that takes in the image array, as well as the number of 
         // rows and columns in each block
