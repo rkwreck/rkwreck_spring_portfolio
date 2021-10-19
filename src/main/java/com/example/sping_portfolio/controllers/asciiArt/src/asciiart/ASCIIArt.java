@@ -19,8 +19,11 @@ public class ASCIIArt {
         return 0.3*(c.getRed()/255.0) + 0.59*(c.getGreen()/255.0) + 0.11*(c.getBlue()/255.0);
     }
 
+
+
+    /*
     public static double[][] getGrayscaleAverage(double[][] grayscale) {
-        double[][] average = new double[80][83];
+        double[][] average = new double[127][82];
         for (int i = 0; i < grayscale.length - 16; i += 16) {
             for (int j = 0; j < grayscale[0].length - 14; j+= 14) {
                 double sum = 0;
@@ -37,6 +40,8 @@ public class ASCIIArt {
         }
         return average;
     }
+
+     */
 
     /**
      * Convert a picture object to a 2D array of grayscale floats
@@ -78,21 +83,21 @@ public class ASCIIArt {
     // picture is 1280 by 1162 pixels
 // blocks should divide by 83 across, divide by 128 down
     public static void main(String[] args) {
-        Picture picture = new Picture("https://cdn.pixabay.com/photo/2014/04/03/00/35/giraffe-308771_1280.png");
+        Picture picture = new Picture("https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-resize-lhYAb1aoDfGEZl.jpg");
 
         double[][] image = getGrayscaleArray(picture);
-        double[][] blocks = getGrayscaleAverage(image);
-        String[][] ascii = getAsciiArray(blocks);
+        //double[][] blocks = getGrayscaleAverage(image);
+        String[][] ascii = getAsciiArray(image);
         for (String[] x : ascii) {
             for (String y : x) {
-                System.out.print(y + " ");
+                System.out.print(y);
             }
             System.out.println();
         }
 
 
         // TODO: Make ASCII art.  You should define at least one method
-        // that takes in the image array, as well as the number of 
+        // that takes in the image array, as well as the number of
         // rows and columns in each block
     }
 }
