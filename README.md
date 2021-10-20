@@ -28,7 +28,7 @@
 | Team | N@tm Presentation | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/51) | 4.5/5 |
 | Team | Website improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/50) | see above |
 | Partners | ASCII art lab | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/49) | 3/3 for Rachel and Chenxin, 2.5/3 for Rini and Maggie |
-| Chenxin | Deployment | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/48) | not done |
+| Chenxin | Deployment | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/48) | attempted/in progress |
 
 
 ## Modeling Checkpoint, Unit 7
