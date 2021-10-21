@@ -21,13 +21,14 @@
 | Maggie | [Individual](https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | <ul><li>[x] done?</li></ul> |
 
 ## N@tM Overview, Unit 8
-#### Individual journal links above in "Individual Checks for each week"
-| Name | Requirement | Evidence |
-| ---- | ----------- | -------- |
-| Team | N@tm Presentation | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/51) |
-| Team | Website improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/50) |
-| Partners | ASCII art lab | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/49) |
-| Chenxin | Deployment | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/48) |
+#### Final score: 9.5/10 for Rachel and Chenxin, 9/10 for Rini and Maggie
+| Name | Requirement | Evidence | Grade |
+| ---- | ----------- | -------- | ----- |
+| Team | Unit 8 Scores | See table in "Individual Checks" above | 2/2 |
+| Team | N@tm Presentation | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/51) | 4.5/5 |
+| Team | Website improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/50) | see above |
+| Partners | ASCII art lab | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/49) | 3/3 for Rachel and Chenxin, 2.5/3 for Rini and Maggie |
+| Chenxin | Deployment | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/48) | attempted/in progress |
 
 
 ## Modeling Checkpoint, Unit 7
