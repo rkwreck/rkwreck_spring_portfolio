@@ -5,7 +5,7 @@
 #### Team Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1
 #### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
 | Name | Profile | Scrum Board | Tasks | Commits |
-| ---- | ------- | ----------- | ----- | ------- |
+| :--: | :-----: | :---------: | :---: | :-----: |
 | Chenxin | [chenxin-chex](https://github.com/chenxin-chex) | [Scrum Board issues](https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Achenxin-chex) | [Open Issues](https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Achenxin-chex+is%3Aopen) | [Commits](https://github.com/rkwreck/team_giraffe_website/commits?author=chenxin-chex) |
 | Rachel | [rachelklee](https://github.com/rachelklee) | [Scrum Board issues](https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Arachelklee) | [Open Issues](https://github.com/rkwreck/team_giraffe_website/issues/assigned/rachelklee) | [Commits](https://github.com/rkwreck/team_giraffe_website/commits?author=rachelklee) |
 | Maggie | [maggie3000](https://github.com/maggie3000) | [Scrum Board issues](https://github.com/rkwreck/team_giraffe_website/projects/1?card_filter_query=assignee%3Amaggie3000) | [Open issues](https://github.com/rkwreck/team_giraffe_website/issues?q=assignee%3Amaggie3000+is%3Aopen) | [Commits](https://github.com/rkwreck/team_giraffe_website/commits?author=maggie3000) |
@@ -14,16 +14,25 @@
 ## Individual Checks for each week
 #### Unit notes and test corrections for each week in Individual Journals
 | Name | Individual Journal | Pair Share Journal | Grade |
-| ---- | ------------------ | ------------------ | ----- |
+| :--: | :----------------: | :----------------: | :---: |
 | Chenxin | [Individual](https://docs.google.com/document/d/12narkOSmUhjDSDolaq9iwvMJ0JjleAJVYIBYRwUyeUQ/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | <ul><li>[x] done?</li></ul> |
 | Rachel | [Individual](https://docs.google.com/document/d/15mil-mSpv7Ma4rNcUr_b5NjWCx2yM9FR3MIMcpM767U/edit?usp=sharing) | [Pair Share](https://padlet.com/rachell60982/tvjnm9j852nxnipn) | <ul><li>[x] done?</li></ul> |
 | Rini | [Individual](https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | <ul><li>[x] done?</li></ul> |
 | Maggie | [Individual](https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | <ul><li>[x] done?</li></ul> |
 
+## Individual Final (Part 1)
+#### Individual journal links above in "Individual Checks for each week"
+| Name | Presentation | Video | Issue (with comments+grades) | Av. Grade |
+| :--: | :----------: | :---: | :--------------------------: | :-------: |
+| Chenxin | [Link](https://docs.google.com/presentation/d/16nBerKmvKBL8ezsc0vbNNRKjqmm7OhD2R_CbZydO27k/edit?usp=sharing) | [Link]() | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/52) | -/6 |
+| Rachel | [Link](https://docs.google.com/presentation/d/1j7LRo3mRfuJrWZEpft8ReLioFQUlMrW9k5f7uM-nkAA/edit?usp=sharing) | [Link]() | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/53) | -/6 |
+| Rini | [Link](https://docs.google.com/presentation/d/1uj5YebNT5ZwLN1OdafzxBPrmiKp9FKx3RBHowIiCC_E/edit?usp=sharing) | [Link]() | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/54) | -/6 |
+| Maggie | [Link](https://docs.google.com/document/d/1OxzAN_p1omsdCGtgdYuaD44AlipC70oCtm2FxetH8hM/edit?usp=sharing) | [Link]() | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/55) | -/6 |
+
 ## N@tM Overview, Unit 8
 #### Final score: 9.5/10 for Rachel and Chenxin, 9/10 for Rini and Maggie
 | Name | Requirement | Evidence | Grade |
-| ---- | ----------- | -------- | ----- |
+| :--: | :---------: | :------: | :---: |
 | Team | Unit 8 Scores | See table in "Individual Checks" above | 2/2 |
 | Team | N@tm Presentation | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/51) | 4.5/5 |
 | Team | Website improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/50) | see above |
@@ -35,7 +44,7 @@
 #### Individual journal links above in "Individual Checks for each week"
 #### **Modeling**
 | Name | Requirement | Evidence (in Issue comments) | Grade |
-| ---- | ----------- | -------- | ----- |
+| :--: | :---------: | :------: | :---: |
 | Team | Week 7 Review Ticket | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/46) | <ul><li>[x] done?</li></ul> |
 | Team | Video Explanation | [Video Link](https://drive.google.com/file/d/1-t1AWClNFniTE8uKsjixU30BmBHIAUR2/view?usp=sharing) | <ul><li>[x] done?</li></ul> |
 | Chenxin | Modeling Improvements | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/34) | <ul><li>[x] done?</li></ul> |
@@ -48,7 +57,7 @@
 #### Unit 6 Individual journals linked above in "Individual Checks for each week"
 #### **Algorithm Lab**
 | Name | Algorithm | Video | Evidence (Commits) |
-| ---- | --------- | ----- | -------- |
+| :--: | :-------: | :---: | :------: |
 | Chenxin | Factorial | [Video](https://loom.com/share/26d6410d5e434e369c77314d1340f97a) | [original html](https://github.com/rkwreck/team_giraffe_website/commit/287235ddbfaf2d5ab8957a1224c4ecd9b2aa157e) and [implement methods](https://github.com/rkwreck/team_giraffe_website/commit/5ae76ae83681fff9e5c123083b53d4a2468f1d35) |
 | Rachel | Lucas Numbers | [Video](https://www.loom.com/share/a393d596173e4c949a1707f4b7ce64ad?sharedAppSource=personal_library) | [algorithm code](https://github.com/rkwreck/team_giraffe_website/commit/f5b08179da8f20ec698d1f3cc124ba6db243580b) |
 | Rini | Arithmetic | [Video](https://www.loom.com/share/4d7314a2c07941929d3e7421f5ccce45) | [original html](https://github.com/rkwreck/team_giraffe_website/commit/fe7f9025d6f2f25749c07477c9890d0694982d7a), [implement methods](https://github.com/rkwreck/team_giraffe_website/commit/6fb22a7ee9eaff1ba6cab8d5f26edcdd71550c4e), [implement methods](https://github.com/rkwreck/team_giraffe_website/commit/32114f87494762b113b96a9d15119f37bd40a15d) |
