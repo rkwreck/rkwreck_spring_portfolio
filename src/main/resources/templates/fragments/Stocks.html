@@ -21,17 +21,7 @@
             <li>Globalstar, Inc. increased by 3.4229%</li>
             <li>Apple Inc. decreased by 0.56%</li>
         </ol>
-        <!--- <h3>Overall Statistics</h3>
-        <ol>
-            <li>stats</li>
-            <li>stats</li>
-            <li>stats</li>
-            <li>stats</li>
-            <li>stats</li>
-        </ol> --->
     </div>
-
-    <!-- start of grid code --->
     <div class="container">
         <table class="table table-bordered tabl=striped">
             <thead class="thead-dark">
@@ -40,17 +30,6 @@
             <th>Percent Change</th>
             <th>Rank</th>
             </thead>
-            <tbody>
-                <tr th:each="country : ${countries}">
-                    <!--/*@thymesVar id="country_name" type="java"*/-->
-                    <td th:text="${country.country_name}"></td>
-                    <!--/*@thymesVar id="cases" type="java"*/-->
-                    <td th:text="${country.cases}"></td>
-                    <!--/*@thymesVar id="deaths" type="java"*/-->
-                    <td th:text="${country.deaths}"></td>
-                    <!--/*@thymesVar id="active_cases" type="java"*/-->
-                    <td th:text="${country.active_cases}"></td>
-                </tr>
             <tr>
                 <td>AMC Entertainment Holdings, Inc.</td>
                 <td>AMC</td>
@@ -83,25 +62,7 @@
             </tr>
             </tbody>
         </table>
-
-        <!-- Clock update display time -->
-        <div class="px-3">
-            <span id="clock" style="color: black;" ></span>
-            <!--- <span id="clock"></span> --->
-        </div>
-        <!-- Navigation bar JavaScript support -->
-        <script>
-            // Clock controller
-            let clockElement = document.getElementById('clock');
-            function clock() {
-                let date = new Date();
-                clockElement.textContent = date.toLocaleString();
-            }
-            // Clock refresh frequency
-            setInterval(clock, 1000);
-        </script>
-
-        <!---<p th:text="'Last updated September 15, 2021 at 9:04:58 AM'"></p> --->
+        <p th:text="'Last updated September 15, 2021 at 9:04:58 AM'"></p> -->
         <!-- End of body content specific to page -->
     </div></body>
 </html>
