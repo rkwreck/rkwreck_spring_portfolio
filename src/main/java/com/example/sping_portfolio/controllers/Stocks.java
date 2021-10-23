@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Stocks {
     @GetMapping("/Stocks")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String Stocks() {
-        return "/Stocks"; // returns HTML VIEW (greeting)
+    public String stocks() {
+        return "Stocks"; // returns HTML VIEW (greeting)
     }
 }
 
