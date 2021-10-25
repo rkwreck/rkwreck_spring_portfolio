@@ -24,10 +24,10 @@
 #### Individual journal links above in "Individual Checks for each week"
 | Name | Presentation | Video | Issue (with comments+grades) | Av. Grade |
 | :--: | :----------: | :---: | :--------------------------: | :-------: |
-| Chenxin | [Link](https://docs.google.com/presentation/d/16nBerKmvKBL8ezsc0vbNNRKjqmm7OhD2R_CbZydO27k/edit?usp=sharing) | [Link](https://www.loom.com/share/3ac1b9ff68a8406e986c9c3a13e56d65) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/52) | -/6 |
-| Rachel | [Link](https://docs.google.com/presentation/d/1j7LRo3mRfuJrWZEpft8ReLioFQUlMrW9k5f7uM-nkAA/edit?usp=sharing) | [Link](https://www.loom.com/share/99136a0aca7b4210b14151689d5de185) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/53) | -/6 |
-| Rini | [Link](https://docs.google.com/presentation/d/1tHIGpH2e8Ouk7GqKPyFnmO9gyXoqV_2xJzPv312M5F0/edit#slide=id.p) | [Link](https://www.loom.com/share/06cd0b13583f41ef858c52a4f7190070) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/54) | -/6 |
-| Maggie | [Link](https://docs.google.com/document/d/1OxzAN_p1omsdCGtgdYuaD44AlipC70oCtm2FxetH8hM/edit?usp=sharing) | [Link](https://www.loom.com/share/1006c514094c4de091812a376c8e2840) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/55) | -/6 |
+| Chenxin | [Link](https://docs.google.com/presentation/d/16nBerKmvKBL8ezsc0vbNNRKjqmm7OhD2R_CbZydO27k/edit?usp=sharing) | [Link](https://www.loom.com/share/3ac1b9ff68a8406e986c9c3a13e56d65) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/52) | 5.83/6 |
+| Rachel | [Link](https://docs.google.com/presentation/d/1j7LRo3mRfuJrWZEpft8ReLioFQUlMrW9k5f7uM-nkAA/edit?usp=sharing) | [Link](https://www.loom.com/share/99136a0aca7b4210b14151689d5de185) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/53) | 5.92/6 |
+| Rini | [Link](https://docs.google.com/presentation/d/1tHIGpH2e8Ouk7GqKPyFnmO9gyXoqV_2xJzPv312M5F0/edit#slide=id.p) | [Link](https://www.loom.com/share/06cd0b13583f41ef858c52a4f7190070) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/54) | 5.75/6 |
+| Maggie | [Link](https://docs.google.com/document/d/1OxzAN_p1omsdCGtgdYuaD44AlipC70oCtm2FxetH8hM/edit?usp=sharing) | [Link](https://www.loom.com/share/1006c514094c4de091812a376c8e2840) | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/55) | 4.92/6 |
 
 ## N@tM Overview, Unit 8
 #### Final score: 9.5/10 for Rachel and Chenxin, 9/10 for Rini and Maggie
