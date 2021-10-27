@@ -1,81 +1,85 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
-<!DOCTYPE HTML>
 <!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
+    <title style="text-align:center">Stocks</title>
+    <style>
+        .block {
+            display: inline-block;
+            width: 100%;
+            height: 65px;
+            border: none;
+            background-color: #df9c36;
+            color: white;
+            padding: 14px 28px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: center;
+            margin: 10px;
+        .block:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .pageTitle {
+            text-align: center;
+            margin: 20px;
+        }
+    }
+    </style>
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body><div layout:fragment="content" th:remove="tag">
-    <!-- Start of body content specific to page -->
-    <div id="spring_intro" class="articles" style="margin: 30px;">
-        <h1 style="text-align:center">Stocks (USA Markets)</h1>
-        <div class="jumbotron text-row" style="background-color: #df9c36">
-        <h3>This Week's Updates</h3>
-        <ol>
-            <li>IronNet Cybersecurity, Inc. increased by 23.89%</li>
-            <li>AMC Entertainment Holdings, Inc. decreased by 2.33% </li>
-            <li>Globalstar, Inc. increased by 3.4229%</li>
-            <li>Apple Inc. decreased by 0.56%</li>
-        </ol>
-        <!--- <h3>Overall Statistics</h3>
-        <ol>
-            <li>stats</li>
-            <li>stats</li>
-            <li>stats</li>
-            <li>stats</li>
-            <li>stats</li>
-        </ol> --->
+<body>
+<div layout:fragment="content" th:remove="tag">
+    <div class="row justify-content-left" style="margin: 2%;">
+        <h1><strong>Stocks (USA Markets)</strong></h1>
+        <!---<form action="/Stocks" method="GET" id="stocksForm">
+            <button>Refresh!</button>
+        </form> --->
+        <style>
+            table, td, th {
+                border: 1px solid white;
+            }
+            td, th {
+                text-align:right;
+            }
+            td:first-child, th:first-child {
+                text-align: left;
+            }
+        </style>
     </div>
-    <!-- start of grid code --->
-    <div class="container">
-        <table class="table table-bordered tabl=striped">
-            <thead class="thead-dark">
-            <th><th:block th:text="${thlfintegration}"></th:block></th>
-            <th>Stock Name (Abbreviation)</th>
-            <th>Percent Change</th>
-            <th>Rank</th>
-            </thead>
-            <tbody>
+    <div class="result" style="height: 35vh;">
+        <table style="margin: 2%">
             <tr>
-                <td>AMC Entertainment Holdings, Inc.</td>
-                <td>AMC</td>
-                <td>-2.33%</td>
-                <td>1</td>
+                <th>Company Name</th>
+                <th>Abbreviation</th>
+                <th>Regular Market Highs</th>
+                <th>Regular Market Change %</th>
             </tr>
-            <tr>
-                <td>Globalstar, Inc.</td>
-                <td>GSAT</td>
-                <td>+3.4229%</td>
-                <td>2</td>
+            <tr th:each="results : ${result}">
+                <!--/*@thymesVar id="country_name" type="java"*/-->
+                <td th:text="${result.longName}"></td>
+                <!--/*@thymesVar id="cases" type="java"*/-->
+                <td th:text="${result.symbol}"></td>
+                <!--/*@thymesVar id="deaths" type="java"*/-->
+                <td th:text="${result.regularMarketDayHigh}"></td>
+                <!--/*@thymesVar id="active_cases" type="java"*/-->
+                <td th:text="${result.regularMarketChangePercent}"></td>
             </tr>
-            <tr>
-                <td>Apple Inc.</td>
-                <td>AAPL</td>
-                <td>-0.56%</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>New Oriental Education & Technology Group Inc.</td>
-                <td>EDU</td>
-                <td>-3.75%</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>IronNet Cybersecurity, Inc.</td>
-                <td>IRNT</td>
-                <td>+23.89%</td>
-                <td>5</td>
-            </tr>
-
-
-            </tbody>
         </table>
-        <p th:text="'Last updated September 15, 2021 at 9:04:58 AM'"></p>
-        <!-- End of body content specific to page -->
-    </div></body>
+        <table style="margin: 2%">
+            <tr>
+                <th>Data</th>
+            </tr>
+            <td th:text="${data}"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+
+
 </html>
 
 
