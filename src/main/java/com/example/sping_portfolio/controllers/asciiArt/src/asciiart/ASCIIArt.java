@@ -21,25 +21,25 @@ public class ASCIIArt {
 
 
 
-    /*
+
     public static double[][] getGrayscaleAverage(double[][] grayscale) {
-        double[][] average = new double[127][82];
-        for (int i = 0; i < grayscale.length - 16; i += 16) {
-            for (int j = 0; j < grayscale[0].length - 14; j+= 14) {
+        double[][] average = new double[80][83];
+        for (int i = 0; i < grayscale.length - 10; i += 10) {
+            for (int j = 0; j < grayscale[0].length - 10; j+= 10) {
                 double sum = 0;
                 int count = 1;
-                for (int k = i; k < k+16; k++) {
-                    for (int l = j; l < l+15; l++) {
+                for (int k = i; k < k+8; k++) {
+                    for (int l = j; l < l+8; l++) {
                         sum += grayscale[k][l];
                         count ++;
                     }
                 }
-                average[i/16][j/14] = sum/count;
+                average[i/10][j/10] = sum/count;
             }
         }
         return average;
     }
-     */
+
 
     /**
      * Convert a picture object to a 2D array of grayscale floats
@@ -81,11 +81,11 @@ public class ASCIIArt {
     // picture is 1280 by 1162 pixels
 // blocks should divide by 83 across, divide by 128 down
     public static void main(String[] args) {
-        Picture picture = new Picture("https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-resize-lhYAb1aoDfGEZl.jpg");
+        Picture picture = new Picture("https://pixy.org/download/261531/");
 
         double[][] image = getGrayscaleArray(picture);
-        //double[][] blocks = getGrayscaleAverage(image);
-        String[][] ascii = getAsciiArray(image);
+        double[][] blocks = getGrayscaleAverage(image);
+        String[][] ascii = getAsciiArray(blocks);
         for (String[] x : ascii) {
             for (String y : x) {
                 System.out.print(y);
