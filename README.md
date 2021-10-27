@@ -20,6 +20,15 @@
 | Rini | [Individual](https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | <ul><li>[x] done?</li></ul> |
 | Maggie | [Individual](https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | <ul><li>[x] done?</li></ul> |
 
+## Draft N@tM Final, Unit 10
+#### Individual journal links above in "Individual Checks for each week"
+| Name | Key Issue | Evidence |
+| :--: | :-------: | :------: |
+| Chenxin | Filter Stocks table | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/59) |
+| Rachel | User Database | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/58) |
+| Rini | Web API for Stocks | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/57) |
+| Maggie | Toastify Notifications | [Issue](https://github.com/rkwreck/team_giraffe_website/issues/60) |
+
 ## Individual Final (Part 1)
 #### Individual journal links above in "Individual Checks for each week"
 | Name | Presentation | Video | Issue (with comments+grades) | Av. Grade |
