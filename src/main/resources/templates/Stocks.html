@@ -17,6 +17,7 @@
             cursor: pointer;
             text-align: center;
             margin: 10px;
+        }
         .block:hover {
             background-color: #ddd;
             color: black;
@@ -25,7 +26,6 @@
             text-align: center;
             margin: 20px;
         }
-    }
     </style>
 </div></head>
 
@@ -49,8 +49,11 @@
             }
         </style>
     </div>
+    <button onClick="alphabeticalNames()">Sort Name Alphabetically</button>
+    <button onClick="marketHigh()">Sort Market Highs</button>
+    <button onClick="marketChange()">Sort Market Changes</button>
     <div class="result" style="height: 35vh;">
-        <table style="margin: 2%">
+        <table id="stockTable" style="margin: 2%">
             <tr>
                 <th>Company Name</th>
                 <th>Abbreviation</th>
@@ -76,6 +79,76 @@
             </tr>
         </table>
     </div>
+    <script>
+        function alphabeticalNames() {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("stockTable");
+            switching = true;
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[0];
+                    y = rows[i+1].getElementsByTagName("TD")[0];
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch=true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i+1], rows[i]);
+                    switching = true;
+                }
+            }
+        }
+
+        function marketHigh() {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("stockTable");
+            switching = true;
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[2];
+                    y = rows[i+1].getElementsByTagName("TD")[2];
+                    if (parseInt(x.innerHTML) < parseInt(y.innerHTML)) {
+                        shouldSwitch=true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i+1], rows[i]);
+                    switching = true;
+                }
+            }
+        }
+
+        function marketChange() {
+            var table, rows, switching, i, x, y, shouldSwitch;
+            table = document.getElementById("stockTable");
+            switching = true;
+            while (switching) {
+                switching = false;
+                rows = table.rows;
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = rows[i].getElementsByTagName("TD")[3];
+                    y = rows[i+1].getElementsByTagName("TD")[3];
+                    if (parseInt(x.innerHTML) < parseInt(y.innerHTML)) {
+                        shouldSwitch=true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i+1], rows[i]);
+                    switching = true;
+                }
+            }
+        }
+    </script>
 </div>
 </body>
 
