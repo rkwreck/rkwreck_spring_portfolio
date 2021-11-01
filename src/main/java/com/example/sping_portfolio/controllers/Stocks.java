@@ -19,20 +19,23 @@ import java.util.List;
 public class Stocks {
     @GetMapping("/Stocks")
     public String stocks(Model model) throws IOException, InterruptedException {
-        //rapidapi setup
+        //rapid setup
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://stock-data-yahoo-finance-alternative.p.rapidapi.com/v6/finance/quote?symbols=AAPL%2CETH-USD"))
-                .header("x-rapidapi-host", "stock-data-yahoo-finance-alternative.p.rapidapi.com")
-                .header("x-rapidapi-key", "SIGN-UP-FOR-KEY")
+                .uri(URI.create("https://myallies-breaking-news-v1.p.rapidapi.com/GetCompanyDetailsBySymbol?symbol=twtr"))
+                .header("x-rapidapi-host", "myallies-breaking-news-v1.p.rapidapi.com")
+                .header("x-rapidapi-key", "1921f2f385msh8c6d68cf81b3011p18ec0ejsn3bb209316b36")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
         //rapidapi call
-        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());        //convert to java hash map
-       var map = new ObjectMapper().readValue(response.body(), HashMap.class);
-        //pass country stats to view
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString()); //convert to java hash map
+
+        var map = new ObjectMapper().readValue(response.body(), HashMap.class);
+        //pass stats to view
         model.addAttribute("data", map);
-        model.addAttribute("results", map.get("result"));
-        //model.addAttribute("countries", map.get("countries_stat"));
+        model.addAttribute("StockID", map.get("identity"));
+        model.addAttribute("LastTradePriceOnly", map.get("trade"));
+        model.addAttribute("ChangePercent", map.get("percentage"));
+        model.addAttribute("CompanyName", map.get("name"));
        return "Stocks"; //returns HTML view
     }
 }

@@ -56,20 +56,28 @@
         <table id="stockTable" style="margin: 2%">
             <tr>
                 <th>Company Name</th>
-                <th>Abbreviation</th>
-                <th>Regular Market Highs</th>
-                <th>Regular Market Change %</th>
+                <th>Stock ID</th>
+                <th>Last Trade (Price Only)</th>
+                <th>Change Percent</th>
             </tr>
+            <tbody>
             <tr th:each="results : ${result}">
-                <!--/*@thymesVar id="country_name" type="java"*/-->
-                <td th:text="${result.longName}"></td>
-                <!--/*@thymesVar id="cases" type="java"*/-->
-                <td th:text="${result.symbol}"></td>
-                <!--/*@thymesVar id="deaths" type="java"*/-->
-                <td th:text="${result.regularMarketDayHigh}"></td>
-                <!--/*@thymesVar id="active_cases" type="java"*/-->
-                <td th:text="${result.regularMarketChangePercent}"></td>
+                <td th:text="${data.CompanyName}" ></td>
+                <td th:text="${data.StockID}" ></td>
+                <td th:text="${data.LastTradePriceOnly}" ></td>
+                <td th:text="${data.ChangePercent}" ></td>
             </tr>
+            </tbody>
+            <!--- <tr th:each="results : ${result}">
+                 /*@thymesVar id="country_name" type="java"*/
+                 <td th:text="${result.CompanyName}"></td>
+                 /*@thymesVar id="cases" type="java"*/
+                 <td th:text="${result.StockID}"></td>
+                 /*@thymesVar id="deaths" type="java"*/
+                 <td th:text="${result.LastTradePriceOnly}"></td>
+                 /*@thymesVar id="active_cases" type="java"*/
+                 <td th:text="${result.ChangePercent}"></td>
+             </tr> --->
         </table>
         <table style="margin: 2%">
             <tr>
@@ -154,7 +162,3 @@
 
 
 </html>
-
-
-
-
