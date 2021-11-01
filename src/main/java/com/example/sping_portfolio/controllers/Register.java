@@ -1,3 +1,4 @@
+
 package com.example.sping_portfolio.controllers;
 
 import org.springframework.stereotype.Controller;
@@ -11,4 +12,3 @@ public class Register {
         return "Register"; // returns HTML VIEW (greeting)
     }
 }
-

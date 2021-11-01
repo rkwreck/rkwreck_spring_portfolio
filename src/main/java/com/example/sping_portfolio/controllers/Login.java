@@ -1,3 +1,4 @@
+
 package com.example.sping_portfolio.controllers;
 
 import org.springframework.stereotype.Controller;
@@ -8,7 +9,6 @@ public class Login {
     @GetMapping("/login")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String birds() {
-        return "Login"; // returns HTML VIEW (greeting)
+        return "login"; // returns HTML VIEW (greeting)
     }
 }
-
