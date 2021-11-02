@@ -1,6 +1,13 @@
-# Team Giraffe Repository
+# Welcome to the Team Giraffe Website
 
-## Scrum Team
+## Introduction
+#### Website at cf.teamgiraffewebsite.com
+#### Purpose: encourage students to participate in stocks with a simple, understandable website that introduces the concept
+#### Navigate through the website using the top nav bar or buttons
+#### Register and login to keep track of specific stock
+
+
+## Meet the Scrum Team
 ### Shoutout to the Github Support team for detaching our fork
 #### Team Scrum Board: https://github.com/rkwreck/team_giraffe_website/projects/1
 #### Contributors: https://github.com/rkwreck/team_giraffe_website/graphs/contributors
