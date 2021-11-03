@@ -57,15 +57,15 @@
             <tr>
                 <th>Company Name</th>
                 <th>Stock ID</th>
-                <th>Last Trade (Price Only)</th>
-                <th>Change Percent</th>
+                <th>Closing Price</th>
+                <th>Last Exchange Date</th>
             </tr>
             <tbody>
-            <tr th:each="results : ${result}">
-                <td th:text="${data.CompanyName}" ></td>
-                <td th:text="${data.StockID}" ></td>
-                <td th:text="${data.LastTradePriceOnly}" ></td>
-                <td th:text="${data.ChangePercent}" ></td>
+                <td th:text="${data.Data.Name}" ></td>
+                <td th:text="${data.Data.Symbol}" ></td>
+                <td th:text="${data.Data.Stock.Close}"></td>
+                <td th:text="${data.Data.Stock.LastExchangeDate}"></td>
+
             </tr>
             </tbody>
             <!--- <tr th:each="results : ${result}">

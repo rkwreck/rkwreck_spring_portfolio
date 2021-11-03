@@ -32,10 +32,14 @@ public class Stocks {
         var map = new ObjectMapper().readValue(response.body(), HashMap.class);
         //pass stats to view
         model.addAttribute("data", map);
-        model.addAttribute("StockID", map.get("identity"));
-        model.addAttribute("LastTradePriceOnly", map.get("trade"));
-        model.addAttribute("ChangePercent", map.get("percentage"));
-        model.addAttribute("CompanyName", map.get("name"));
-       return "Stocks"; //returns HTML view
+        model.addAttribute("identity", map.get("StockID"));
+        model.addAttribute("trade", map.get("LastTradePriceOnly"));
+        model.addAttribute("percentage", map.get("ChangePercent"));
+        model.addAttribute("name", map.get("CompanyName"));
+        //model.addAttribute("StockID", map.get("identity"));
+        //model.addAttribute("LastTradePriceOnly", map.get("trade"));
+        //model.addAttribute("ChangePercent", map.get("percentage"));
+        //model.addAttribute("CompanyName", map.get("name"));
+        return "Stocks"; //returns HTML view
     }
 }
