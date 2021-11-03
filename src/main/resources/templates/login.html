@@ -44,21 +44,19 @@
 
   <div style="text-align: center">
     <h1>Admin Login</h1>
-    <form action="login" method="post">
+    <form action="login" method="get">
       <label for="firstname">Firstname:</label>
       <input name="firstname" size="30" />
       <br><br>
       <label for="password">Password:</label>
       <input type="password" name="password" size="30" />
-      <br>${message}
       <br><br>
+      <h1><th:block th:text="${loginStatus}"></th:block></h1>
+      <br>
       <button type="submit">Login</button>
     </form>
   </div>
 
-  <div class="contact" style="height: 35vh;">
-    <h1 class="pageTitle">Login</h1>
-  </div>
 </div>
 <!-- End of body content specific to page -->
 </div></body>"
