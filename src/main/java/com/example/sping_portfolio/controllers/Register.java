@@ -20,7 +20,7 @@ public class Register {
     public String register(@RequestParam(name = "firstname", required = false) String firstname, @RequestParam(name = "password", required = false) String password, Model model) {
         System.out.println("firstname from form " + firstname);
         System.out.println("password from form " + password);
-
+        inputFirstnamePassword(firstname, password);
 
         return "register"; // returns HTML VIEW (greeting)
     }
@@ -45,10 +45,10 @@ public class Register {
         return conn;
     }
 
-    public void inputFirstnamePassword(String firstname, String password) {
-        String sql = "INSERT INTO rc_table(?,?)";
+    public static void inputFirstnamePassword(String firstname, String password) {
+        String sql = "INSERT INTO rc_table(FIRSTNAME,PASSWORD) VALUES(?,?)";
 
-        try (Connection conn = this.connect();
+        try (Connection conn = connect();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, firstname);
             pstmt.setString(2, password);
@@ -56,8 +56,11 @@ public class Register {
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
+    }
 
-
+    // Console UI is run out of the same Controller
+    public static void main(String[] args) {
+        inputFirstnamePassword("RACHEL","PASSWORD");
     }
 /*
     // Check username and password

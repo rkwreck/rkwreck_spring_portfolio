@@ -23,6 +23,9 @@ public class LoginPage {
         System.out.println("password from form " + password);
         if(checkFirstnamePassword(firstname, password)) {
             model.addAttribute("loginStatus", "Login Success");
+            return "index"; // returns HTML VIEW (greeting)
+
+
         } else {
             model.addAttribute("loginStatus", "Login Fail");
         }
