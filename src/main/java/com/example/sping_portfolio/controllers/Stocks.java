@@ -1,11 +1,9 @@
 package com.example.sping_portfolio.controllers;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -28,7 +26,6 @@ public class Stocks {
                 .build();
         //rapidapi call
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString()); //convert to java hash map
-
         var map = new ObjectMapper().readValue(response.body(), HashMap.class);
         //pass stats to view
         model.addAttribute("data", map);
@@ -36,10 +33,7 @@ public class Stocks {
         model.addAttribute("trade", map.get("LastTradePriceOnly"));
         model.addAttribute("percentage", map.get("ChangePercent"));
         model.addAttribute("name", map.get("CompanyName"));
-        //model.addAttribute("StockID", map.get("identity"));
-        //model.addAttribute("LastTradePriceOnly", map.get("trade"));
-        //model.addAttribute("ChangePercent", map.get("percentage"));
-        //model.addAttribute("CompanyName", map.get("name"));
         return "Stocks"; //returns HTML view
     }
 }
+

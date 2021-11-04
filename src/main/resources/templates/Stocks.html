@@ -65,28 +65,53 @@
                 <td th:text="${data.Data.Symbol}" ></td>
                 <td th:text="${data.Data.Stock.Close}"></td>
                 <td th:text="${data.Data.Stock.LastExchangeDate}"></td>
-
             </tr>
             </tbody>
-            <!--- <tr th:each="results : ${result}">
-                 /*@thymesVar id="country_name" type="java"*/
-                 <td th:text="${result.CompanyName}"></td>
-                 /*@thymesVar id="cases" type="java"*/
-                 <td th:text="${result.StockID}"></td>
-                 /*@thymesVar id="deaths" type="java"*/
-                 <td th:text="${result.LastTradePriceOnly}"></td>
-                 /*@thymesVar id="active_cases" type="java"*/
-                 <td th:text="${result.ChangePercent}"></td>
-             </tr> --->
-        </table>
-        <table style="margin: 2%">
-            <tr>
-                <th>Data</th>
-            </tr>
-            <td th:text="${data}"></td>
-            </tr>
-        </table>
-    </div>
+            <div class="container">
+                <table class="table table-bordered tabl=striped" style="margin: 2%">
+                   <!--- <thead class="thead-dark"> --->
+                    <!---<th><th:block th:text="${thlfintegration}"></th:block></th> --->
+                    <th>Company Name</th>
+                    <th>Stock ID</th>
+                    <th>Closing Price</th>
+                    <th>Last Exchange Date</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Apple Inc.</td>
+                        <td>AAPL</td>
+                        <td>$151.49</td>
+                        <td>11/04/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft Corporation</td>
+                        <td>MSFT</td>
+                        <td>$334.00</td>
+                        <td>11/04/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon.com, Inc.</td>
+                        <td>AMZN</td>
+                        <td>$3384.00</td>
+                        <td>11/04/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Netflix, Inc.</td>
+                        <td>NFLX</td>
+                        <td>$668.29</td>
+                        <td>11/04/2021</td>
+                    </tr>
+                    <tr>
+                        <td>Walt Disney Company</td>
+                        <td>DIS</td>
+                        <td>$170.08</td>
+                        <td>11/04/2021</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- End of body content specific to page -->
+            </div></body>
+</div>
     <script>
         function alphabeticalNames() {
             var table, rows, switching, i, x, y, shouldSwitch;
