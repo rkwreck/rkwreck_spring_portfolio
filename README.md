@@ -27,6 +27,15 @@
 | Rini | [Individual](https://docs.google.com/document/d/1xpVvo9skGu1DjskaPJj1e81uadfd7EG2PaSU8n8e6LY/edit?usp=sharing) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | <ul><li>[x] done?</li></ul> |
 | Maggie | [Individual](https://padlet.com/maggiekillada/e3i0m3e98cvoyfmk) | [Pair Share](https://padlet.com/rinik2014/m57cv3a2cidodfoz) | <ul><li>[x] done?</li></ul> |
 
+## N@tM Presentation and Walkabouts
+#### All of our individual reflection questions on geekbot and captured N@tM presentations are in the documents linked below.
+| Name | Individual Reflections |
+| :--: | :--------------------: |
+| Chenxin | [Doc](https://drive.google.com/file/d/1YdH9TyGBilAQu3qhkBF7L50u7CYemTBS/view?usp=sharing) |
+| Rachel | [Doc](https://drive.google.com/file/d/1YdH9TyGBilAQu3qhkBF7L50u7CYemTBS/view?usp=sharing) |
+| Rini | [Doc](https://docs.google.com/document/d/1Dj1QJd26sr7JqT7ek4t10noKLV45GHLXPdhYKKf4tX0/edit?usp=sharing) |
+| Maggie | [Doc](https://docs.google.com/document/d/1wLxNbagLivclvV8Tvqhye6Uj08GGpzVnAQG08TmBCNA/edit?usp=sharing) |
+
 ## Draft N@tM Final, Unit 10
 #### Individual journal links above in "Individual Checks for each week"
 | Name | Key Issue | Evidence |
