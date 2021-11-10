@@ -31,8 +31,8 @@
 #### All of our individual reflection questions on geekbot and captured N@tM presentations are in the documents linked below.
 | Name | Individual Reflections |
 | :--: | :--------------------: |
-| Chenxin | [Doc](https://drive.google.com/file/d/1YdH9TyGBilAQu3qhkBF7L50u7CYemTBS/view?usp=sharing) |
-| Rachel | [Doc](https://drive.google.com/file/d/1YdH9TyGBilAQu3qhkBF7L50u7CYemTBS/view?usp=sharing) |
+| Chenxin | [Doc](https://docs.google.com/document/d/13AnCUPSb3ZA7Tg9ydubF-7kEmTvWtjQ5ZgDBThpupak/edit?usp=sharing) |
+| Rachel | [Doc](https://docs.google.com/document/d/1IfaBAEAFmIUWNcws0a1WGqscRli1Sxm8Ke_onEyDDDA/edit?usp=sharing) |
 | Rini | [Doc](https://docs.google.com/document/d/1Dj1QJd26sr7JqT7ek4t10noKLV45GHLXPdhYKKf4tX0/edit?usp=sharing) |
 | Maggie | [Doc](https://docs.google.com/document/d/1wLxNbagLivclvV8Tvqhye6Uj08GGpzVnAQG08TmBCNA/edit?usp=sharing) |
 
